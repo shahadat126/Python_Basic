@@ -1,0 +1,155 @@
+[
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "data-type",
+        "description": "data-type",
+        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "data-type",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "data-type",
+        "description": "data-type",
+        "peekOfCode": "y = 6.6\nz = \"sabil\"\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "data-type",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "data-type",
+        "description": "data-type",
+        "peekOfCode": "z = \"sabil\"\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "data-type",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "string_concat",
+        "description": "string_concat",
+        "peekOfCode": "a = 'sabil'\nb = \"mia\"\nc = a + b\nprint(c)",
+        "detail": "string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "string_concat",
+        "description": "string_concat",
+        "peekOfCode": "b = \"mia\"\nc = a + b\nprint(c)",
+        "detail": "string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "string_concat",
+        "description": "string_concat",
+        "peekOfCode": "c = a + b\nprint(c)",
+        "detail": "string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "first_number",
+        "kind": 5,
+        "importPath": "sum_avg",
+        "description": "sum_avg",
+        "peekOfCode": "first_number = float(input(\"Enter the first number: \"))\nsecond_number = float(input(\"Enter the second number: \"))\nthird_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "second_number",
+        "kind": 5,
+        "importPath": "sum_avg",
+        "description": "sum_avg",
+        "peekOfCode": "second_number = float(input(\"Enter the second number: \"))\nthird_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "third_number",
+        "kind": 5,
+        "importPath": "sum_avg",
+        "description": "sum_avg",
+        "peekOfCode": "third_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "sum_avg",
+        "description": "sum_avg",
+        "peekOfCode": "result = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "avg",
+        "kind": 5,
+        "importPath": "sum_avg",
+        "description": "sum_avg",
+        "peekOfCode": "avg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "base = float(input(\"Enter base: \"))\nheight = float(input(\"Enter height: \"))\nradius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "height = float(input(\"Enter height: \"))\nradius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "radius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
+        "label": "Triangle_area",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "Triangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
+        "label": "Circle_area",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "Circle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "while_loop",
+        "description": "while_loop",
+        "peekOfCode": "i = 1\nwhile i < 6:\n  print(i)\n  i += 1",
+        "detail": "while_loop",
+        "documentation": {}
+    }
+]
