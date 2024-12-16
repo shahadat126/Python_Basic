@@ -99,12 +99,30 @@
         "documentation": {}
     },
     {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "grade-point",
+        "description": "grade-point",
+        "peekOfCode": "marks = float(input(\"Enter a number\"))\nif marks >= 80:\n        print(\"A+\")\nelif marks >= 70:\n        print(\"A\")\nelif marks >= 60:\n        print(\"A-\")\nelif marks >= 50:\n        print(\"B\")\nelif marks >= 40:",
+        "detail": "grade-point",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "odd_even",
         "description": "odd_even",
         "peekOfCode": "number = int(input(\"enter a number\"))\nif number % 2 ==0 :\n    print(\"Number is even\")\nelse:\n    print(\"Number is odd\")",
         "detail": "odd_even",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "postive",
+        "description": "postive",
+        "peekOfCode": "number = int(input(\"Enter a number: \"))\nif number>0 :\n    print(\"Number is postive\")\nelif number<0 :\n    print(\"Number is negative\")\nelse :\n    print(\"number is Zero\")",
+        "detail": "postive",
         "documentation": {}
     },
     {
