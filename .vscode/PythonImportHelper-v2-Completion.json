@@ -72,6 +72,15 @@
         "documentation": {}
     },
     {
+        "label": "number",
+        "kind": 5,
+        "importPath": "odd_even",
+        "description": "odd_even",
+        "peekOfCode": "number = int(input(\"enter a number\"))\nif number % 2 ==0 :\n    print(\"Number is even\")\nelse:\n    print(\"Number is odd\")",
+        "detail": "odd_even",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "string_concat",
