@@ -72,6 +72,33 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "findBig",
+        "description": "findBig",
+        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b & a>c :\n    print(\"a is big number\")\nelif b>a % b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "detail": "findBig",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "findBig",
+        "description": "findBig",
+        "peekOfCode": "b = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b & a>c :\n    print(\"a is big number\")\nelif b>a % b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "detail": "findBig",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "findBig",
+        "description": "findBig",
+        "peekOfCode": "c = int(input(\"Enter third number: \"))\nif a>b & a>c :\n    print(\"a is big number\")\nelif b>a % b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "detail": "findBig",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "odd_even",
