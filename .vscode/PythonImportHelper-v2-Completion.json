@@ -49,7 +49,7 @@
         "kind": 5,
         "importPath": "data-type",
         "description": "data-type",
-        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nprint(x)\nx=8\nprint(x)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2",
         "detail": "data-type",
         "documentation": {}
     },
@@ -58,7 +58,7 @@
         "kind": 5,
         "importPath": "data-type",
         "description": "data-type",
-        "peekOfCode": "y = 6.6\nz = \"sabil\"\nprint(x)\nx=8\nprint(x)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "peekOfCode": "y = 6.6\nz = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2\nprint(n3)",
         "detail": "data-type",
         "documentation": {}
     },
@@ -67,7 +67,7 @@
         "kind": 5,
         "importPath": "data-type",
         "description": "data-type",
-        "peekOfCode": "z = \"sabil\"\nprint(x)\nx=8\nprint(x)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "peekOfCode": "z = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2\nprint(n3)\nprint(x)",
         "detail": "data-type",
         "documentation": {}
     },
