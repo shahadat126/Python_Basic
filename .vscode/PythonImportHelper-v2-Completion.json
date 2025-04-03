@@ -49,7 +49,7 @@
         "kind": 5,
         "importPath": "data-type",
         "description": "data-type",
-        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nprint(x)\nx=8\nprint(x)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
         "detail": "data-type",
         "documentation": {}
     },
@@ -58,7 +58,7 @@
         "kind": 5,
         "importPath": "data-type",
         "description": "data-type",
-        "peekOfCode": "y = 6.6\nz = \"sabil\"\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "peekOfCode": "y = 6.6\nz = \"sabil\"\nprint(x)\nx=8\nprint(x)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
         "detail": "data-type",
         "documentation": {}
     },
@@ -67,7 +67,7 @@
         "kind": 5,
         "importPath": "data-type",
         "description": "data-type",
-        "peekOfCode": "z = \"sabil\"\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "peekOfCode": "z = \"sabil\"\nprint(x)\nx=8\nprint(x)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
         "detail": "data-type",
         "documentation": {}
     },
@@ -76,7 +76,7 @@
         "kind": 5,
         "importPath": "findBig",
         "description": "findBig",
-        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b & a>c :\n    print(\"a is big number\")\nelif b>a % b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
         "detail": "findBig",
         "documentation": {}
     },
@@ -85,7 +85,7 @@
         "kind": 5,
         "importPath": "findBig",
         "description": "findBig",
-        "peekOfCode": "b = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b & a>c :\n    print(\"a is big number\")\nelif b>a % b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "peekOfCode": "b = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
         "detail": "findBig",
         "documentation": {}
     },
@@ -94,7 +94,7 @@
         "kind": 5,
         "importPath": "findBig",
         "description": "findBig",
-        "peekOfCode": "c = int(input(\"Enter third number: \"))\nif a>b & a>c :\n    print(\"a is big number\")\nelif b>a % b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "peekOfCode": "c = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
         "detail": "findBig",
         "documentation": {}
     },
@@ -103,8 +103,26 @@
         "kind": 5,
         "importPath": "grade-point",
         "description": "grade-point",
-        "peekOfCode": "marks = float(input(\"Enter a number\"))\nif marks >= 80:\n        print(\"A+\")\nelif marks >= 70:\n        print(\"A\")\nelif marks >= 60:\n        print(\"A-\")\nelif marks >= 50:\n        print(\"B\")\nelif marks >= 40:",
+        "peekOfCode": "marks = float(input(\"Enter a number\"))\nif marks >= 80 and marks <=100:\n        print(\"A+\")\nelif marks >= 70 and marks<80:\n        print(\"A\")\nelif marks >= 60 and marks<70:\n        print(\"A-\")\nelif marks >= 50 and marks <60:\n        print(\"B\")\nelif marks >= 40 and marks <50:",
         "detail": "grade-point",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "if_else",
+        "description": "if_else",
+        "peekOfCode": "a = 20\nb = 33\nif a > b:\n  print(\"a is big number \" , a)\nelse:\n  print(\"b is  big number\" ,b)",
+        "detail": "if_else",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "if_else",
+        "description": "if_else",
+        "peekOfCode": "b = 33\nif a > b:\n  print(\"a is big number \" , a)\nelse:\n  print(\"b is  big number\" ,b)",
+        "detail": "if_else",
         "documentation": {}
     },
     {
@@ -202,7 +220,7 @@
         "kind": 5,
         "importPath": "while_loop",
         "description": "while_loop",
-        "peekOfCode": "i = 1\nwhile i < 6:\n  print(i)\n  i += 1",
+        "peekOfCode": "i = 1\nwhile i <= 10:\n  print(\"Hello world\")\n  i=i+1",
         "detail": "while_loop",
         "documentation": {}
     }
