@@ -99,6 +99,15 @@
         "documentation": {}
     },
     {
+        "label": "generate_multiplication_table",
+        "kind": 2,
+        "importPath": "function",
+        "description": "function",
+        "peekOfCode": "def generate_multiplication_table(n):\n    print(n,\"x 1 =\",n*1)\n    print(n,\"x 1 =\",n*2)\n    print(n,\"x 1 =\",n*3)\n    print(n,\"x 1 =\",n*4)\n    print(n,\"x 1 =\",n*5)\n    print(n,\"x 1 =\",n*6)\n    print(n,\"x 1 =\",n*7)\n    print(n,\"x 1 =\",n*8)\n    print(n,\"x 1 =\",n*9)",
+        "detail": "function",
+        "documentation": {}
+    },
+    {
         "label": "marks",
         "kind": 5,
         "importPath": "grade-point",
