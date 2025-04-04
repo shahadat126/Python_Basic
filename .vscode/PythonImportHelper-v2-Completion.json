@@ -1,5 +1,14 @@
 [
     {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "base",
         "kind": 5,
         "importPath": "area",
@@ -141,6 +150,15 @@
         "description": "Leap-Year",
         "peekOfCode": "year = input(\"Year : \")\nyear=int(year)\nif year % 4 == 0:\n    if year % 100== 0:\n        if year % 400 == 0:\n            print(year, \"is leap year\")\n        else:\n            print(year, \"is not leap year\")\n    else:\n        print(year, \"is  leap year\")",
         "detail": "Leap-Year",
+        "documentation": {}
+    },
+    {
+        "label": "Today",
+        "kind": 5,
+        "importPath": "library_func",
+        "description": "library_func",
+        "peekOfCode": "Today = datetime.datetime.today()\nprint(Today)",
+        "detail": "library_func",
         "documentation": {}
     },
     {
