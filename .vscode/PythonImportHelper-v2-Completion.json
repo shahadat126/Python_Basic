@@ -108,6 +108,15 @@
         "documentation": {}
     },
     {
+        "label": "multiplication",
+        "kind": 2,
+        "importPath": "for_loop",
+        "description": "for_loop",
+        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nmultiplication(3)",
+        "detail": "for_loop",
+        "documentation": {}
+    },
+    {
         "label": "generate_multiplication_table",
         "kind": 2,
         "importPath": "function",
@@ -252,11 +261,11 @@
         "documentation": {}
     },
     {
-        "label": "i",
-        "kind": 5,
+        "label": "multiplication",
+        "kind": 2,
         "importPath": "while_loop",
         "description": "while_loop",
-        "peekOfCode": "i = 1\nwhile i <= 10:\n  print(\"Hello world\")\n  i=i+1",
+        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nn= input(\"enter a number\")\nn=int(n)\nwhile n!=0:\n  multiplication(n)\n  print(\" \")\n  n=input(\"enter a number\")\n  n=int(n)",
         "detail": "while_loop",
         "documentation": {}
     }
