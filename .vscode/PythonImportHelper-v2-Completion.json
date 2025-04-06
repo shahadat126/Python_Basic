@@ -189,6 +189,15 @@
         "documentation": {}
     },
     {
+        "label": "s",
+        "kind": 5,
+        "importPath": "set",
+        "description": "set",
+        "peekOfCode": "s = set ()\ns.add(1)\ns.add(2)\ns.add(3)\nprint(s)\ns2=set()\ns2.add(4)\ns2.add(2)\ns2.add(5)\ns2.add(6)",
+        "detail": "set",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "string_concat",
