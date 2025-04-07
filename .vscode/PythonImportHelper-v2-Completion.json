@@ -81,6 +81,15 @@
         "documentation": {}
     },
     {
+        "label": "num_to_words",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "num_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)\nprint(num_to_words[3])\nif 5 in num_to_words:\n    print(\"Available\")\nelse:\n    print(\"Not Found \")",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "findBig",
