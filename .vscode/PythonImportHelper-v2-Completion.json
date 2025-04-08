@@ -180,6 +180,15 @@
         "documentation": {}
     },
     {
+        "label": "results",
+        "kind": 5,
+        "importPath": "max.min.sum",
+        "description": "max.min.sum",
+        "peekOfCode": "results = 0\nfor num in numbers:\n    results= results + num\nprint(results)",
+        "detail": "max.min.sum",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "odd_even",
