@@ -180,6 +180,15 @@
         "documentation": {}
     },
     {
+        "label": "li",
+        "kind": 5,
+        "importPath": "linear_search",
+        "description": "linear_search",
+        "peekOfCode": "li = [1,2,6,10,100,14,5,9]\n# found = li.index(5)\n# found = 5 in li\n# print(found)\n# key = 6 \n# flag= False\n# for item in li:\n#     if key==61:\n#         print(\"found\")\n#         flag=True",
+        "detail": "linear_search",
+        "documentation": {}
+    },
+    {
         "label": "results",
         "kind": 5,
         "importPath": "max.min.sum",
