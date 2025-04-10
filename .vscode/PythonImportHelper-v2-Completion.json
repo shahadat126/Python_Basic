@@ -216,6 +216,42 @@
         "documentation": {}
     },
     {
+        "label": "li",
+        "kind": 5,
+        "importPath": "range",
+        "description": "range",
+        "peekOfCode": "li = range(1,11)\nprint(type(li))\nfor x in li:\n    print(x)\nli2 = list(range(1,11))\nprint(li2)\neven_numbers= list(range(2,101,2))\nprint(even_numbers)\nnumbers= list(range(10))\nprint(numbers)",
+        "detail": "range",
+        "documentation": {}
+    },
+    {
+        "label": "li2",
+        "kind": 5,
+        "importPath": "range",
+        "description": "range",
+        "peekOfCode": "li2 = list(range(1,11))\nprint(li2)\neven_numbers= list(range(2,101,2))\nprint(even_numbers)\nnumbers= list(range(10))\nprint(numbers)\nnegative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)",
+        "detail": "range",
+        "documentation": {}
+    },
+    {
+        "label": "negative2",
+        "kind": 5,
+        "importPath": "range",
+        "description": "range",
+        "peekOfCode": "negative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)",
+        "detail": "range",
+        "documentation": {}
+    },
+    {
+        "label": "negative",
+        "kind": 5,
+        "importPath": "range",
+        "description": "range",
+        "peekOfCode": "negative = list(range(10,0,-5))\nprint(negative)",
+        "detail": "range",
+        "documentation": {}
+    },
+    {
         "label": "s",
         "kind": 5,
         "importPath": "set",
