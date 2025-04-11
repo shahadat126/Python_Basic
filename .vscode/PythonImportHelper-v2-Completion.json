@@ -297,6 +297,15 @@
         "documentation": {}
     },
     {
+        "label": "colors_choice",
+        "kind": 5,
+        "importPath": "set&dic_comprehenstions",
+        "description": "set&dic_comprehenstions",
+        "peekOfCode": "colors_choice = [('irfan','blue'),('shakib','green'),('hafeej','light'),('shodi','black'),('amla','deep_G')]\ncolors_dic={name:color for name,color in colors_choice}\nprint(colors_dic)\ncolors_set={color for color in colors_dic.values()}\ncolors_name={name for name in colors_dic.keys()}\nprint(colors_name)\nprint(colors_set)",
+        "detail": "set&dic_comprehenstions",
+        "documentation": {}
+    },
+    {
         "label": "s",
         "kind": 5,
         "importPath": "set",
