@@ -243,6 +243,24 @@
         "documentation": {}
     },
     {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "object",
+        "description": "object",
+        "peekOfCode": "class Car:\n    make='toyota'\n    def __init__(self,mk,mdl,yr):\n        self.make= mk\n        self.model=mdl\n        self.year=yr\n    def move(self):\n        print(\"the car is moving\")\n    def horn(self):\n        print(\"beef beef!\")",
+        "detail": "object",
+        "documentation": {}
+    },
+    {
+        "label": "another_car",
+        "kind": 5,
+        "importPath": "object",
+        "description": "object",
+        "peekOfCode": "another_car = Car('Toyota','Camry', 2020)\nanother_car.move()\nprint(mycar.make,another_car.make)",
+        "detail": "object",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "odd_even",
