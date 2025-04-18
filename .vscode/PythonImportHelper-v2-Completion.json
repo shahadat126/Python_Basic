@@ -486,6 +486,15 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "a = 21//5\nprint(a)# integer division\nprint(float(a))#convert into float\nb=10/5\nprint(b)# float division\nprint(int(b))#convert into integer",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
         "label": "multiplication",
         "kind": 2,
         "importPath": "while_loop",
