@@ -396,6 +396,15 @@
         "documentation": {}
     },
     {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "string_methods",
+        "description": "string_methods",
+        "peekOfCode": "txt = \"i like bananas\"\nx=txt.replace(\"bananas\",\"apples\")\nprint(x)\nprint(x.count('a'))",
+        "detail": "string_methods",
+        "documentation": {}
+    },
+    {
         "label": "first_number",
         "kind": 5,
         "importPath": "sum_avg",
