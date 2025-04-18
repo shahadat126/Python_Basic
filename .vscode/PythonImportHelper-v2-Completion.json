@@ -1,5 +1,14 @@
 [
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -51,6 +60,15 @@
         "description": "area",
         "peekOfCode": "Circle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
         "detail": "area",
+        "documentation": {}
+    },
+    {
+        "label": "Fractio",
+        "kind": 6,
+        "importPath": "class&object",
+        "description": "class&object",
+        "peekOfCode": "class Fraction :\n    def __init__(self,n,d):\n        self.numerator = n\n        self.denominator = d\n    def add(self,f):\n        l= math.lcm(self.denominator,f.denominator)\n        num=(l/self.denominator)*self.numerator + (l/f.denominator)*f.numerator\n        self.numerator=int(num)\n        self.denominator=l\n    def __str__(self):",
+        "detail": "class&object",
         "documentation": {}
     },
     {
@@ -357,6 +375,24 @@
         "description": "string_concat",
         "peekOfCode": "c = a + b\nprint(c)",
         "detail": "string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "string_index_immutable",
+        "description": "string_index_immutable",
+        "peekOfCode": "a = \"this is string\"\nprint(a[0])\nprint(a[13])\n# print(a[16])\n#toatal index = total len - 1\nprint(len(a))\nprint(a[len(a)-1]) #last character print long method\nprint(a[-1]) #last character print short method \nprint(a[-2]) #last 2nd character print short method\n#immutable data type",
+        "detail": "string_index_immutable",
+        "documentation": {}
+    },
+    {
+        "label": "b[1]",
+        "kind": 5,
+        "importPath": "string_index_immutable",
+        "description": "string_index_immutable",
+        "peekOfCode": "b[1] = 'o' #TypeError: 'str' object does not support item assignment\nprint(b)",
+        "detail": "string_index_immutable",
         "documentation": {}
     },
     {
