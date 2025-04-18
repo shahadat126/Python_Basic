@@ -378,6 +378,42 @@
         "documentation": {}
     },
     {
+        "label": "age",
+        "kind": 5,
+        "importPath": "string_formatting",
+        "description": "string_formatting",
+        "peekOfCode": "age = 25\nf_name = \"rahim\"\nl_name= \"khan\"\n# txt = \"i am {f_name} {l_name}. i am {age} years old.\".format(l_name=l_name,f_name=f_name,age=age)\ntxt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "f_name",
+        "kind": 5,
+        "importPath": "string_formatting",
+        "description": "string_formatting",
+        "peekOfCode": "f_name = \"rahim\"\nl_name= \"khan\"\n# txt = \"i am {f_name} {l_name}. i am {age} years old.\".format(l_name=l_name,f_name=f_name,age=age)\ntxt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "string_formatting",
+        "description": "string_formatting",
+        "peekOfCode": "txt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "tx2",
+        "kind": 5,
+        "importPath": "string_formatting",
+        "description": "string_formatting",
+        "peekOfCode": "tx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "string_formatting",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "string_index_immutable",
