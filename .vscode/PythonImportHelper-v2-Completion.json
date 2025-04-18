@@ -252,6 +252,33 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "math_function",
+        "description": "math_function",
+        "peekOfCode": "a = 4.5\ny = 4.1\nprint(math.ceil(a))\nprint(math.ceil(y))\nprint(math.floor(a))\nprint(math.floor(y))\nb= 0.004\nprint(math.ceil(b))\nprint(math.floor(b))\n#Round ",
+        "detail": "math_function",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "math_function",
+        "description": "math_function",
+        "peekOfCode": "y = 4.1\nprint(math.ceil(a))\nprint(math.ceil(y))\nprint(math.floor(a))\nprint(math.floor(y))\nb= 0.004\nprint(math.ceil(b))\nprint(math.floor(b))\n#Round \ntax = 420.49 # .1 to .5 floor and .51 to .99 ceil",
+        "detail": "math_function",
+        "documentation": {}
+    },
+    {
+        "label": "tax",
+        "kind": 5,
+        "importPath": "math_function",
+        "description": "math_function",
+        "peekOfCode": "tax = 420.49 # .1 to .5 floor and .51 to .99 ceil\nprint(round(tax))",
+        "detail": "math_function",
+        "documentation": {}
+    },
+    {
         "label": "results",
         "kind": 5,
         "importPath": "max.min.sum",
