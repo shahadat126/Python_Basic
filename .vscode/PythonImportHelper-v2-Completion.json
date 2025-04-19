@@ -274,7 +274,7 @@
         "kind": 5,
         "importPath": "list_comprehensions",
         "description": "list_comprehensions",
-        "peekOfCode": "cube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)",
+        "peekOfCode": "cube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:",
         "detail": "list_comprehensions",
         "documentation": {}
     },
@@ -283,7 +283,7 @@
         "kind": 5,
         "importPath": "list_comprehensions",
         "description": "list_comprehensions",
-        "peekOfCode": "cube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)",
+        "peekOfCode": "cube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)",
         "detail": "list_comprehensions",
         "documentation": {}
     },
@@ -292,7 +292,43 @@
         "kind": 5,
         "importPath": "list_comprehensions",
         "description": "list_comprehensions",
-        "peekOfCode": "cube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)",
+        "peekOfCode": "cube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]",
+        "detail": "list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "list_comprehensions",
+        "description": "list_comprehensions",
+        "peekOfCode": "a = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]",
+        "detail": "list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "list_comprehensions",
+        "description": "list_comprehensions",
+        "peekOfCode": "result = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]\nnew_b = [i**2 if i % 2==0 else i for i in b]",
+        "detail": "list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "new_result",
+        "kind": 5,
+        "importPath": "list_comprehensions",
+        "description": "list_comprehensions",
+        "peekOfCode": "new_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]\nnew_b = [i**2 if i % 2==0 else i for i in b]\nprint(new_b)",
+        "detail": "list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "new_b",
+        "kind": 5,
+        "importPath": "list_comprehensions",
+        "description": "list_comprehensions",
+        "peekOfCode": "new_b = [i**2 if i % 2==0 else i for i in b]\nprint(new_b)",
         "detail": "list_comprehensions",
         "documentation": {}
     },
@@ -391,7 +427,7 @@
         "kind": 5,
         "importPath": "range",
         "description": "range",
-        "peekOfCode": "negative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)",
+        "peekOfCode": "negative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)\nlist4=tuple(range(1,11,2))\nprint(list4)",
         "detail": "range",
         "documentation": {}
     },
@@ -400,7 +436,7 @@
         "kind": 5,
         "importPath": "range",
         "description": "range",
-        "peekOfCode": "negative = list(range(10,0,-5))\nprint(negative)",
+        "peekOfCode": "negative = list(range(10,0,-5))\nprint(negative)\nlist4=tuple(range(1,11,2))\nprint(list4)",
         "detail": "range",
         "documentation": {}
     },
@@ -555,6 +591,15 @@
         "description": "sum_avg",
         "peekOfCode": "avg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
         "detail": "sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Tuple",
+        "description": "Tuple",
+        "peekOfCode": "t = tuple(reversed(t))\nprint(t)",
+        "detail": "Tuple",
         "documentation": {}
     },
     {

@@ -14,3 +14,8 @@ for item in tpl:
 tpl1=1,2,3
 a,b,c=tpl1
 print(a,b,c)
+ 
+t =(1,2,3)
+print(t)
+t = tuple(reversed(t))
+print(t)
