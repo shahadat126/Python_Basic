@@ -18,6 +18,51 @@
         "documentation": {}
     },
     {
+        "label": "Students",
+        "kind": 6,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "class Students:\n    Roll = \"\"\n    Gpa = \"\"\nshihab= Students()\nprint(isinstance(shihab,Students))#is object created ? true\nshihab.Roll=1\nshihab.Gpa= 5\nSabbir= Students()\nSabbir.Roll = 2\nSabbir.Gpa = 4.75",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "Sabbir.Roll",
+        "kind": 5,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "Sabbir.Roll = 2\nSabbir.Gpa = 4.75\nshimul= Students()\nshimul.Roll = 4\nshimul.Gpa = 4.5",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "Sabbir.Gpa",
+        "kind": 5,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "Sabbir.Gpa = 4.75\nshimul= Students()\nshimul.Roll = 4\nshimul.Gpa = 4.5",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "shimul.Roll",
+        "kind": 5,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "shimul.Roll = 4\nshimul.Gpa = 4.5",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "shimul.Gpa",
+        "kind": 5,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "shimul.Gpa = 4.5",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
         "label": "base",
         "kind": 5,
         "importPath": "area",

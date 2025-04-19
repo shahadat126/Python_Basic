@@ -30,4 +30,9 @@ print(li3)
 #list.reverse()
 li3.reverse()
 print(li3)
-
+x= "12345678"
+y=list(x)
+print(y)
+print(y.index('3'))
+y.reverse()
+print(y)
