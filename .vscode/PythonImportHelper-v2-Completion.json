@@ -612,11 +612,11 @@
         "documentation": {}
     },
     {
-        "label": "multiplication",
-        "kind": 2,
+        "label": "n",
+        "kind": 5,
         "importPath": "while_loop",
         "description": "while_loop",
-        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nn= input(\"enter a number\")\nn=int(n)\nwhile n!=0:\n  multiplication(n)\n  print(\" \")\n  n=input(\"enter a number\")\n  n=int(n)",
+        "peekOfCode": "n = len(x)\nwhile i<n:\n  result= result + x[i]\n  i=i+1\nprint(result)\nm=[-10,2,9,-3,-5]\ni=0\nwhile i<len(m):\n  if m[i]<0:\n    m[i]=0",
         "detail": "while_loop",
         "documentation": {}
     }
