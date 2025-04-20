@@ -15,3 +15,12 @@ print(s2^s)
 li=[1,2,3,4,5,6,4,5]
 li2=list(set(li))
 print(li2)
+
+a={1,2,3}
+b={2,3,4}
+c=a.intersection(b)
+print(c)
+d=a.union(b)
+print(d)
+e=b.union(a)
+print(e)
