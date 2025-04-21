@@ -27,6 +27,24 @@
         "documentation": {}
     },
     {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "Function.keyword_function",
+        "description": "Function.keyword_function",
+        "peekOfCode": "def my_function(**data):\n    print(data)\n    print(f\"My name is  {data['f_name']} {data['l_name']}.I am {data['age']} years old. I Got {data['marks']} marks in programming. I live in {data['address']}\")\nmy_function(f_name=\"Shimul\",l_name=\"khan\",age=28,marks = 95, address=\"Dhaka\")",
+        "detail": "Function.keyword_function",
+        "documentation": {}
+    },
+    {
+        "label": "my_function(f_name=\"Shimul\",l_name=\"khan\",age=28,marks",
+        "kind": 5,
+        "importPath": "Function.keyword_function",
+        "description": "Function.keyword_function",
+        "peekOfCode": "my_function(f_name=\"Shimul\",l_name=\"khan\",age=28,marks = 95, address=\"Dhaka\")",
+        "detail": "Function.keyword_function",
+        "documentation": {}
+    },
+    {
         "label": "Today",
         "kind": 5,
         "importPath": "Function.library_func",
