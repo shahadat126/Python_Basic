@@ -1,14 +1,5 @@
 [
     {
-        "label": "math",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
-        "documentation": {}
-    },
-    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -18,12 +9,30 @@
         "documentation": {}
     },
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "generate_multiplication_table",
         "kind": 2,
         "importPath": "Function.function",
         "description": "Function.function",
         "peekOfCode": "def generate_multiplication_table(n):\n    print(n,\"x 1 =\",n*1)\n    print(n,\"x 1 =\",n*2)\n    print(n,\"x 1 =\",n*3)\n    print(n,\"x 1 =\",n*4)\n    print(n,\"x 1 =\",n*5)\n    print(n,\"x 1 =\",n*6)\n    print(n,\"x 1 =\",n*7)\n    print(n,\"x 1 =\",n*8)\n    print(n,\"x 1 =\",n*9)",
         "detail": "Function.function",
+        "documentation": {}
+    },
+    {
+        "label": "Today",
+        "kind": 5,
+        "importPath": "Function.library_func",
+        "description": "Function.library_func",
+        "peekOfCode": "Today = datetime.datetime.today()\nprint(Today)",
+        "detail": "Function.library_func",
         "documentation": {}
     },
     {
@@ -303,15 +312,6 @@
         "description": "Leap-Year",
         "peekOfCode": "year = input(\"Year : \")\nyear=int(year)\nif year % 4 == 0:\n    if year % 100== 0:\n        if year % 400 == 0:\n            print(year, \"is leap year\")\n        else:\n            print(year, \"is not leap year\")\n    else:\n        print(year, \"is  leap year\")",
         "detail": "Leap-Year",
-        "documentation": {}
-    },
-    {
-        "label": "Today",
-        "kind": 5,
-        "importPath": "library_func",
-        "description": "library_func",
-        "peekOfCode": "Today = datetime.datetime.today()\nprint(Today)",
-        "detail": "library_func",
         "documentation": {}
     },
     {
