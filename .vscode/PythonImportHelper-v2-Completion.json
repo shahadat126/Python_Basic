@@ -148,7 +148,43 @@
         "kind": 5,
         "importPath": "dictionary",
         "description": "dictionary",
+        "peekOfCode": "num_to_words = dict()\nnum_to_words[1]= 'one'\nnum_to_words[2]= 'two'\nnum_to_words[3]= 'three'\nprint(num_to_words,type(num_to_words))\nnum_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "num_to_words",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
         "peekOfCode": "num_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)\nprint(num_to_words[3])\nif 5 in num_to_words:\n    print(\"Available\")\nelse:\n    print(\"Not Found \")",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "a = [1,2,3]\nb = [\"Mango\",\"Banana\",\"Apple\"]\n# {1:\"Mango\",2:\"Banana\",3:\"Apple\"}\nprint(list(zip(a,b)))\nc = dict(zip(a,b))\nprint(c)\nprint(c[1])",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "b = [\"Mango\",\"Banana\",\"Apple\"]\n# {1:\"Mango\",2:\"Banana\",3:\"Apple\"}\nprint(list(zip(a,b)))\nc = dict(zip(a,b))\nprint(c)\nprint(c[1])",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "c = dict(zip(a,b))\nprint(c)\nprint(c[1])",
         "detail": "dictionary",
         "documentation": {}
     },

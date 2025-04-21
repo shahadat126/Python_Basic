@@ -1,8 +1,8 @@
-# num_to_words = dict()
-# num_to_words[1]= 'one'
-# num_to_words[2]= 'two'
-# num_to_words[3]= 'three'
-# print(num_to_words,type(num_to_words))
+num_to_words = dict()
+num_to_words[1]= 'one'
+num_to_words[2]= 'two'
+num_to_words[3]= 'three'
+print(num_to_words,type(num_to_words))
 
 num_to_words = {1: 'one', 2: 'two', 3: 'three'}
 fruits={'S':'Shimul','K':'Keya'}
@@ -23,4 +23,13 @@ print(num_to_words.get(1))
 
 for key, value in num_to_words.items():
     print(key, value)
+    
+a = [1,2,3]
+b = ["Mango","Banana","Apple"]
+# {1:"Mango",2:"Banana",3:"Apple"}
+print(list(zip(a,b)))
+c = dict(zip(a,b))
+print(c)
+
+print(c[1])
     
