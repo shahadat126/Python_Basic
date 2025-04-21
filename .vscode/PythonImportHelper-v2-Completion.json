@@ -36,6 +36,60 @@
         "documentation": {}
     },
     {
+        "label": "my_first_function",
+        "kind": 2,
+        "importPath": "Function.user_define_function",
+        "description": "Function.user_define_function",
+        "peekOfCode": "def my_first_function():#function definition\n    a = 10\n    b = 10\n    print(a+b)\nmy_first_function()# function call\n#type 2\n#input , no return\ndef add_two_numbers(a,b): # arguments\n    print(a+b)\nadd_two_numbers(10,20) #parameter",
+        "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
+        "label": "add_two_numbers",
+        "kind": 2,
+        "importPath": "Function.user_define_function",
+        "description": "Function.user_define_function",
+        "peekOfCode": "def add_two_numbers(a,b): # arguments\n    print(a+b)\nadd_two_numbers(10,20) #parameter\nadd_two_numbers(100,200)\n#input,return\ndef multiply_two_numbers(a,b):\n    return a*b\nresult = multiply_two_numbers(10,20)\nprint(result)\n#no input, return",
+        "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
+        "label": "multiply_two_numbers",
+        "kind": 2,
+        "importPath": "Function.user_define_function",
+        "description": "Function.user_define_function",
+        "peekOfCode": "def multiply_two_numbers(a,b):\n    return a*b\nresult = multiply_two_numbers(10,20)\nprint(result)\n#no input, return\ndef hello():\n    return \"Hello\"\nget = hello()\nprint(get)",
+        "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "Function.user_define_function",
+        "description": "Function.user_define_function",
+        "peekOfCode": "def hello():\n    return \"Hello\"\nget = hello()\nprint(get)",
+        "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Function.user_define_function",
+        "description": "Function.user_define_function",
+        "peekOfCode": "result = multiply_two_numbers(10,20)\nprint(result)\n#no input, return\ndef hello():\n    return \"Hello\"\nget = hello()\nprint(get)",
+        "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "kind": 5,
+        "importPath": "Function.user_define_function",
+        "description": "Function.user_define_function",
+        "peekOfCode": "get = hello()\nprint(get)",
+        "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
         "label": "Fractio",
         "kind": 6,
         "importPath": "Python(OOP).class&object",
