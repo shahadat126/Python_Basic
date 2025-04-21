@@ -189,6 +189,24 @@
         "documentation": {}
     },
     {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "dict_comprehensions",
+        "description": "dict_comprehensions",
+        "peekOfCode": "nums = list(range(0,11))\nresult = {i : \"Even\" if i%2==0 else \"odd\" for i in nums}\nprint(result)",
+        "detail": "dict_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "dict_comprehensions",
+        "description": "dict_comprehensions",
+        "peekOfCode": "result = {i : \"Even\" if i%2==0 else \"odd\" for i in nums}\nprint(result)",
+        "detail": "dict_comprehensions",
+        "documentation": {}
+    },
+    {
         "label": "a",
         "kind": 5,
         "importPath": "findBig",
