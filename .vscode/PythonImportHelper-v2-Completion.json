@@ -18,6 +18,24 @@
         "documentation": {}
     },
     {
+        "label": "print_my_name",
+        "kind": 2,
+        "importPath": "Function.default_parameter",
+        "description": "Function.default_parameter",
+        "peekOfCode": "def print_my_name(f_name,l_name=\"khan\"):\n    print(f_name,l_name)\nprint_my_name(\"shimul\")\nprint_my_name(\"Shahadat\",\"Hossain\") #Hossain override khan\ndef greetings():\n    pass",
+        "detail": "Function.default_parameter",
+        "documentation": {}
+    },
+    {
+        "label": "greetings",
+        "kind": 2,
+        "importPath": "Function.default_parameter",
+        "description": "Function.default_parameter",
+        "peekOfCode": "def greetings():\n    pass",
+        "detail": "Function.default_parameter",
+        "documentation": {}
+    },
+    {
         "label": "generate_multiplication_table",
         "kind": 2,
         "importPath": "Function.function",
