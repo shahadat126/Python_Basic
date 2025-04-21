@@ -36,6 +36,33 @@
         "documentation": {}
     },
     {
+        "label": "addition",
+        "kind": 2,
+        "importPath": "Function.Multiple_arguments",
+        "description": "Function.Multiple_arguments",
+        "peekOfCode": "def addition(a,b):\n    result = a+b\n    return result\nr = addition(15,20)\nprint(r)\n#type 2\ndef addition_multiple_arguments(*args):\n    return sum(args)\nresult= addition_multiple_arguments(10,20,50,30,25,25,30)\nprint(result)",
+        "detail": "Function.Multiple_arguments",
+        "documentation": {}
+    },
+    {
+        "label": "addition_multiple_arguments",
+        "kind": 2,
+        "importPath": "Function.Multiple_arguments",
+        "description": "Function.Multiple_arguments",
+        "peekOfCode": "def addition_multiple_arguments(*args):\n    return sum(args)\nresult= addition_multiple_arguments(10,20,50,30,25,25,30)\nprint(result)",
+        "detail": "Function.Multiple_arguments",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "Function.Multiple_arguments",
+        "description": "Function.Multiple_arguments",
+        "peekOfCode": "r = addition(15,20)\nprint(r)\n#type 2\ndef addition_multiple_arguments(*args):\n    return sum(args)\nresult= addition_multiple_arguments(10,20,50,30,25,25,30)\nprint(result)",
+        "detail": "Function.Multiple_arguments",
+        "documentation": {}
+    },
+    {
         "label": "my_first_function",
         "kind": 2,
         "importPath": "Function.user_define_function",
