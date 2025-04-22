@@ -63,6 +63,33 @@
         "documentation": {}
     },
     {
+        "label": "students",
+        "kind": 5,
+        "importPath": "Function.lamda_function",
+        "description": "Function.lamda_function",
+        "peekOfCode": "students =  [('abir',94,50),('shimul',85,25),('jahir',95,20)]\nstudents_results = sorted(students,key= lambda x : x[2])\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "detail": "Function.lamda_function",
+        "documentation": {}
+    },
+    {
+        "label": "students_results",
+        "kind": 5,
+        "importPath": "Function.lamda_function",
+        "description": "Function.lamda_function",
+        "peekOfCode": "students_results = sorted(students,key= lambda x : x[2])\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "detail": "Function.lamda_function",
+        "documentation": {}
+    },
+    {
+        "label": "students_results",
+        "kind": 5,
+        "importPath": "Function.lamda_function",
+        "description": "Function.lamda_function",
+        "peekOfCode": "students_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "detail": "Function.lamda_function",
+        "documentation": {}
+    },
+    {
         "label": "Today",
         "kind": 5,
         "importPath": "Function.library_func",
