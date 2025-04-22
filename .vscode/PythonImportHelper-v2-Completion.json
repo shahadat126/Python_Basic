@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -96,6 +105,51 @@
         "description": "Function.library_func",
         "peekOfCode": "Today = datetime.datetime.today()\nprint(Today)",
         "detail": "Function.library_func",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "Function.map_filter_reduce",
+        "description": "Function.map_filter_reduce",
+        "peekOfCode": "nums = [1,2,3,4]\nresult = list(map(lambda x: x*x,nums))\nprint(result)\n#filter\nnums = [1,2,3,4,5]\neven = list(filter(lambda x: x>2,nums))\nprint(even)\n#reduce\nimport functools\nsum = functools.reduce(lambda x,y : x+y,nums)",
+        "detail": "Function.map_filter_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Function.map_filter_reduce",
+        "description": "Function.map_filter_reduce",
+        "peekOfCode": "result = list(map(lambda x: x*x,nums))\nprint(result)\n#filter\nnums = [1,2,3,4,5]\neven = list(filter(lambda x: x>2,nums))\nprint(even)\n#reduce\nimport functools\nsum = functools.reduce(lambda x,y : x+y,nums)\nprint(sum)",
+        "detail": "Function.map_filter_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "Function.map_filter_reduce",
+        "description": "Function.map_filter_reduce",
+        "peekOfCode": "nums = [1,2,3,4,5]\neven = list(filter(lambda x: x>2,nums))\nprint(even)\n#reduce\nimport functools\nsum = functools.reduce(lambda x,y : x+y,nums)\nprint(sum)",
+        "detail": "Function.map_filter_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "even",
+        "kind": 5,
+        "importPath": "Function.map_filter_reduce",
+        "description": "Function.map_filter_reduce",
+        "peekOfCode": "even = list(filter(lambda x: x>2,nums))\nprint(even)\n#reduce\nimport functools\nsum = functools.reduce(lambda x,y : x+y,nums)\nprint(sum)",
+        "detail": "Function.map_filter_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "Function.map_filter_reduce",
+        "description": "Function.map_filter_reduce",
+        "peekOfCode": "sum = functools.reduce(lambda x,y : x+y,nums)\nprint(sum)",
+        "detail": "Function.map_filter_reduce",
         "documentation": {}
     },
     {
