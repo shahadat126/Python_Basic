@@ -27,6 +27,14 @@
         "documentation": {}
     },
     {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "print_my_name",
         "kind": 2,
         "importPath": "Function.default_parameter",
@@ -708,6 +716,24 @@
         "description": "set",
         "peekOfCode": "s = set ()\ns.add(1)\ns.add(2)\ns.add(3)\nprint(s)\ns2=set()\ns2.add(4)\ns2.add(2)\ns2.add(5)\ns2.add(6)",
         "detail": "set",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "stack&queue",
+        "description": "stack&queue",
+        "peekOfCode": "list1 = [\"bangla\"]\nlist1.append(\"english\")\nprint(list1)\nlist1.append(\"math\")\nlist1.append(\"SCIENCE\")\nlist1.pop()\nprint(list1)\n#queue fisrt in first out\nfrom collections import deque\nlist2 = deque([\"1\",\"2\",\"3\",\"4\"])",
+        "detail": "stack&queue",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "stack&queue",
+        "description": "stack&queue",
+        "peekOfCode": "list2 = deque([\"1\",\"2\",\"3\",\"4\"])\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nprint(list2)\nif not list2:\n    print(\"No person left\")",
+        "detail": "stack&queue",
         "documentation": {}
     },
     {
