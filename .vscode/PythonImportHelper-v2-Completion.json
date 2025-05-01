@@ -846,6 +846,33 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "ternary",
+        "description": "ternary",
+        "peekOfCode": "a = int(input(\"Enter a Number\"))\nb = int(input(\"Enter another Number\"))\nmax_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
+        "detail": "ternary",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "ternary",
+        "description": "ternary",
+        "peekOfCode": "b = int(input(\"Enter another Number\"))\nmax_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
+        "detail": "ternary",
+        "documentation": {}
+    },
+    {
+        "label": "max_num",
+        "kind": 5,
+        "importPath": "ternary",
+        "description": "ternary",
+        "peekOfCode": "max_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
+        "detail": "ternary",
+        "documentation": {}
+    },
+    {
         "label": "t",
         "kind": 5,
         "importPath": "Tuple",
@@ -859,7 +886,16 @@
         "kind": 5,
         "importPath": "variable",
         "description": "variable",
-        "peekOfCode": "a = 21//5\nprint(a)# integer division\nprint(float(a))#convert into float\nb=10/5\nprint(b)# float division\nprint(int(b))#convert into integer",
+        "peekOfCode": "a = 18//4\nprint(a)# integer division\nprint(float(a))#convert into float\nb=10/5\nprint(b)# float division\nprint(int(b))#convert into integer\nx=18\ny=4\nmax = x if x<y else y\nprint(max)",
+        "detail": "variable",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 5,
+        "importPath": "variable",
+        "description": "variable",
+        "peekOfCode": "max = x if x<y else y\nprint(max)",
         "detail": "variable",
         "documentation": {}
     },
