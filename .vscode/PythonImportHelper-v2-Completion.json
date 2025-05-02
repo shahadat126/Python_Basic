@@ -1,5 +1,23 @@
 [
     {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -32,6 +50,15 @@
         "description": "collections",
         "isExtraImport": true,
         "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "File.file_handling",
+        "description": "File.file_handling",
+        "peekOfCode": "file_path = pathlib.Path('File/name.txt')\nif file_path.exists():\n    print(\"File exists\")\nprint(os.path.abspath('File/name.txt'))\nprint(os.path.getsize('File/name.txt'))\nwith open('File/name.txt','r') as f:\n    print(f.read(18))\n    print(f.tell())",
+        "detail": "File.file_handling",
         "documentation": {}
     },
     {
