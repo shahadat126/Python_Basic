@@ -1,7 +1,0 @@
-this is test file
-Apple
-Banana
-Orange
-Apple
-Banana
-Orange
