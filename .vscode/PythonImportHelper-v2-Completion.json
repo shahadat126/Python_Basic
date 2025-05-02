@@ -53,6 +53,15 @@
         "documentation": {}
     },
     {
+        "label": "check_file",
+        "kind": 2,
+        "importPath": "Errors vs Exceptions.else_finally_raise",
+        "description": "Errors vs Exceptions.else_finally_raise",
+        "peekOfCode": "def check_file(filename):\n    if not filename.endswith('.txt'):\n        raise ValueError(\"only .txt files are allowed\")\n    print(\"valid file\")\ncheck_file('data.csv')",
+        "detail": "Errors vs Exceptions.else_finally_raise",
+        "documentation": {}
+    },
+    {
         "label": "file_path",
         "kind": 5,
         "importPath": "File.file_handling",
