@@ -35,6 +35,15 @@
         "documentation": {}
     },
     {
+        "label": "lines",
+        "kind": 5,
+        "importPath": "File.writefile",
+        "description": "File.writefile",
+        "peekOfCode": "lines = ['\\n i love python\\n','i am new to python\\n']\nwith open('File/name.txt','a') as f:\n    f.writelines(lines)",
+        "detail": "File.writefile",
+        "documentation": {}
+    },
+    {
         "label": "print_my_name",
         "kind": 2,
         "importPath": "Function.default_parameter",
