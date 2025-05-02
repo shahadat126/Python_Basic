@@ -701,6 +701,24 @@
         "documentation": {}
     },
     {
+        "label": "outer",
+        "kind": 2,
+        "importPath": "scope_resolution",
+        "description": "scope_resolution",
+        "peekOfCode": "def outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n        nonlocal n #this keyword only can change enclosing variable\n        n=\"local\" #local variable\n    inner()\n    print(\"1\",n)\nouter()\nprint(n)",
+        "detail": "scope_resolution",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "scope_resolution",
+        "description": "scope_resolution",
+        "peekOfCode": "n = 100  #global function\ndef outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n        nonlocal n #this keyword only can change enclosing variable\n        n=\"local\" #local variable\n    inner()\n    print(\"1\",n)\nouter()\nprint(n)",
+        "detail": "scope_resolution",
+        "documentation": {}
+    },
+    {
         "label": "colors_choice",
         "kind": 5,
         "importPath": "set&dic_comprehenstions",
