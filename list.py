@@ -38,4 +38,4 @@ y.reverse()
 print(y)
 
 list4 = ["shihab","sabbir","shoel","shimul","adnan","shourab"]
-print(list4[4:1:-1])
+print(list4[4:1:-1]) #if start point not greater then end point in reverse time then it will nothing return 

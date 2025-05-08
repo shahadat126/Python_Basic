@@ -579,7 +579,7 @@
         "kind": 5,
         "importPath": "list",
         "description": "list",
-        "peekOfCode": "list4 = [\"shihab\",\"sabbir\",\"shoel\",\"shimul\",\"adnan\",\"shourab\"]\nprint(list4[4:1:-1])",
+        "peekOfCode": "list4 = [\"shihab\",\"sabbir\",\"shoel\",\"shimul\",\"adnan\",\"shourab\"]\nprint(list4[4:1:-1]) #if start point not greater then end point in reverse time then it will nothing return",
         "detail": "list",
         "documentation": {}
     },
