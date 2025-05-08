@@ -57,7 +57,7 @@
         "kind": 2,
         "importPath": "Errors vs Exceptions.else_finally_raise",
         "description": "Errors vs Exceptions.else_finally_raise",
-        "peekOfCode": "def check_file(filename):\n    if not filename.endswith('.txt'):\n        raise ValueError(\"only .txt files are allowed\")\n    print(\"valid file\")\ncheck_file('data.csv')",
+        "peekOfCode": "def check_file(filename):\n    if not filename.endswith('.txt'):\n        raise ValueError(\"only .txt files are allowed\")\n    print(\"valid file\")\ntry:    \n    check_file('data.csv')\nexcept Exception as e:\n    print(e)",
         "detail": "Errors vs Exceptions.else_finally_raise",
         "documentation": {}
     },
@@ -575,6 +575,15 @@
         "documentation": {}
     },
     {
+        "label": "list4",
+        "kind": 5,
+        "importPath": "list",
+        "description": "list",
+        "peekOfCode": "list4 = [\"shihab\",\"sabbir\",\"shoel\",\"shimul\",\"adnan\",\"shourab\"]\nprint(list4[4:1:-1])",
+        "detail": "list",
+        "documentation": {}
+    },
+    {
         "label": "li",
         "kind": 5,
         "importPath": "list_comprehensions",
@@ -777,7 +786,7 @@
         "kind": 5,
         "importPath": "set",
         "description": "set",
-        "peekOfCode": "s = set ()\ns.add(1)\ns.add(2)\ns.add(3)\nprint(s)\ns2=set()\ns2.add(4)\ns2.add(2)\ns2.add(5)\ns2.add(6)",
+        "peekOfCode": "s = set ()\ns.add(1)\ns.add(2)\ns.add(3)\ns.add(2)\nprint(s)\ns2=set()\ns2.add(4)\ns2.add(2)\ns2.add(5)",
         "detail": "set",
         "documentation": {}
     },
@@ -989,11 +998,11 @@
         "documentation": {}
     },
     {
-        "label": "n",
+        "label": "a",
         "kind": 5,
         "importPath": "while_loop",
         "description": "while_loop",
-        "peekOfCode": "n = len(x)\nwhile i<n:\n  result= result + x[i]\n  i=i+1\nprint(result)\nm=[-10,2,9,-3,-5]\ni=0\nwhile i<len(m):\n  if m[i]<0:\n    m[i]=0",
+        "peekOfCode": "a = 3\nwhile a<=21:\n  if a == 15:\n    break\n  print(a)\n  a = a+3",
         "detail": "while_loop",
         "documentation": {}
     }

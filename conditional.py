@@ -1,4 +1,2 @@
-s1="Bangladesh"
-s2="bangladesh"
-if s1==s2: 
-    print("true")
+for i in range(2,5):
+    print(i)

@@ -36,3 +36,6 @@ print(y)
 print(y.index('3'))
 y.reverse()
 print(y)
+
+list4 = ["shihab","sabbir","shoel","shimul","adnan","shourab"]
+print(list4[4:1:-1])

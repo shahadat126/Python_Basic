@@ -25,5 +25,7 @@ def check_file(filename):
     if not filename.endswith('.txt'):
         raise ValueError("only .txt files are allowed")
     print("valid file")
-    
-check_file('data.csv')
+try:    
+    check_file('data.csv')
+except Exception as e:
+    print(e)
