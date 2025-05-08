@@ -1002,7 +1002,7 @@
         "kind": 5,
         "importPath": "while_loop",
         "description": "while_loop",
-        "peekOfCode": "a = 3\nwhile a<=21:\n  if a == 15:\n    break\n  print(a)\n  a = a+3",
+        "peekOfCode": "a = 3\nwhile a<=21:\n  if a == 15:\n    break\n  print(a)\n  a = a+3\nprint(\"Done\")",
         "detail": "while_loop",
         "documentation": {}
     }
