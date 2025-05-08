@@ -525,7 +525,7 @@
         "kind": 2,
         "importPath": "for_loop",
         "description": "for_loop",
-        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nmultiplication(3)",
+        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nmultiplication(4)",
         "detail": "for_loop",
         "documentation": {}
     },
