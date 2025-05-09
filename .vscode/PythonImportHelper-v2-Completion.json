@@ -53,6 +53,14 @@
         "documentation": {}
     },
     {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "check_file",
         "kind": 2,
         "importPath": "Errors vs Exceptions.else_finally_raise",
@@ -356,6 +364,114 @@
         "description": "Python(OOP).object",
         "peekOfCode": "another_car = Car('Toyota','Camry', 2020)\nanother_car.move()\nprint(mycar.make,another_car.make)",
         "detail": "Python(OOP).object",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "String.stack&queue",
+        "description": "String.stack&queue",
+        "peekOfCode": "list1 = [\"bangla\"]\nlist1.append(\"english\")\nprint(list1)\nlist1.append(\"math\")\nlist1.append(\"SCIENCE\")\nlist1.pop()\nprint(list1)\n#queue fisrt in first out\nfrom collections import deque\nlist2 = deque([\"1\",\"2\",\"3\",\"4\"])",
+        "detail": "String.stack&queue",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "String.stack&queue",
+        "description": "String.stack&queue",
+        "peekOfCode": "list2 = deque([\"1\",\"2\",\"3\",\"4\"])\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nprint(list2)\nif not list2:\n    print(\"No person left\")",
+        "detail": "String.stack&queue",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "String.string_concat",
+        "description": "String.string_concat",
+        "peekOfCode": "a = 'sabil'\nb = \"mia\"\nc = a + b\nprint(c)",
+        "detail": "String.string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "String.string_concat",
+        "description": "String.string_concat",
+        "peekOfCode": "b = \"mia\"\nc = a + b\nprint(c)",
+        "detail": "String.string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "String.string_concat",
+        "description": "String.string_concat",
+        "peekOfCode": "c = a + b\nprint(c)",
+        "detail": "String.string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "String.string_formatting",
+        "description": "String.string_formatting",
+        "peekOfCode": "age = 25\nf_name = \"rahim\"\nl_name= \"khan\"\n# txt = \"i am {f_name} {l_name}. i am {age} years old.\".format(l_name=l_name,f_name=f_name,age=age)\ntxt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "String.string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "f_name",
+        "kind": 5,
+        "importPath": "String.string_formatting",
+        "description": "String.string_formatting",
+        "peekOfCode": "f_name = \"rahim\"\nl_name= \"khan\"\n# txt = \"i am {f_name} {l_name}. i am {age} years old.\".format(l_name=l_name,f_name=f_name,age=age)\ntxt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "String.string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "String.string_formatting",
+        "description": "String.string_formatting",
+        "peekOfCode": "txt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "String.string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "tx2",
+        "kind": 5,
+        "importPath": "String.string_formatting",
+        "description": "String.string_formatting",
+        "peekOfCode": "tx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
+        "detail": "String.string_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "String.string_index_immutable",
+        "description": "String.string_index_immutable",
+        "peekOfCode": "a = \"this is string\"\nprint(a[0])\nprint(a[13])\n# print(a[16])\n#toatal index = total len - 1\nprint(len(a))\nprint(a[len(a)-1]) #last character print long method\nprint(a[-1]) #last character print short method \nprint(a[-2]) #last 2nd character print short method\n#immutable data type",
+        "detail": "String.string_index_immutable",
+        "documentation": {}
+    },
+    {
+        "label": "b[1]",
+        "kind": 5,
+        "importPath": "String.string_index_immutable",
+        "description": "String.string_index_immutable",
+        "peekOfCode": "b[1] = 'o' #TypeError: 'str' object does not support item assignment\nprint(b)",
+        "detail": "String.string_index_immutable",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "String.string_methods",
+        "description": "String.string_methods",
+        "peekOfCode": "txt = \"i like bananas\"\nx=txt.replace(\"bananas\",\"apples\")\nprint(x)\nprint(x.count('a'))",
+        "detail": "String.string_methods",
         "documentation": {}
     },
     {
@@ -806,96 +922,6 @@
         "description": "stack&queue",
         "peekOfCode": "list2 = deque([\"1\",\"2\",\"3\",\"4\"])\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nprint(list2)\nif not list2:\n    print(\"No person left\")",
         "detail": "stack&queue",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "string_concat",
-        "description": "string_concat",
-        "peekOfCode": "a = 'sabil'\nb = \"mia\"\nc = a + b\nprint(c)",
-        "detail": "string_concat",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "string_concat",
-        "description": "string_concat",
-        "peekOfCode": "b = \"mia\"\nc = a + b\nprint(c)",
-        "detail": "string_concat",
-        "documentation": {}
-    },
-    {
-        "label": "c",
-        "kind": 5,
-        "importPath": "string_concat",
-        "description": "string_concat",
-        "peekOfCode": "c = a + b\nprint(c)",
-        "detail": "string_concat",
-        "documentation": {}
-    },
-    {
-        "label": "age",
-        "kind": 5,
-        "importPath": "string_formatting",
-        "description": "string_formatting",
-        "peekOfCode": "age = 25\nf_name = \"rahim\"\nl_name= \"khan\"\n# txt = \"i am {f_name} {l_name}. i am {age} years old.\".format(l_name=l_name,f_name=f_name,age=age)\ntxt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
-        "detail": "string_formatting",
-        "documentation": {}
-    },
-    {
-        "label": "f_name",
-        "kind": 5,
-        "importPath": "string_formatting",
-        "description": "string_formatting",
-        "peekOfCode": "f_name = \"rahim\"\nl_name= \"khan\"\n# txt = \"i am {f_name} {l_name}. i am {age} years old.\".format(l_name=l_name,f_name=f_name,age=age)\ntxt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
-        "detail": "string_formatting",
-        "documentation": {}
-    },
-    {
-        "label": "txt",
-        "kind": 5,
-        "importPath": "string_formatting",
-        "description": "string_formatting",
-        "peekOfCode": "txt = \"I am {} {}.I am {} years old.\".format(f_name,l_name,age)# long step\ntx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
-        "detail": "string_formatting",
-        "documentation": {}
-    },
-    {
-        "label": "tx2",
-        "kind": 5,
-        "importPath": "string_formatting",
-        "description": "string_formatting",
-        "peekOfCode": "tx2 = f\"i am {f_name} {l_name}.I am {age} years old.\"#short step\nprint(txt)\nprint(tx2)",
-        "detail": "string_formatting",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "string_index_immutable",
-        "description": "string_index_immutable",
-        "peekOfCode": "a = \"this is string\"\nprint(a[0])\nprint(a[13])\n# print(a[16])\n#toatal index = total len - 1\nprint(len(a))\nprint(a[len(a)-1]) #last character print long method\nprint(a[-1]) #last character print short method \nprint(a[-2]) #last 2nd character print short method\n#immutable data type",
-        "detail": "string_index_immutable",
-        "documentation": {}
-    },
-    {
-        "label": "b[1]",
-        "kind": 5,
-        "importPath": "string_index_immutable",
-        "description": "string_index_immutable",
-        "peekOfCode": "b[1] = 'o' #TypeError: 'str' object does not support item assignment\nprint(b)",
-        "detail": "string_index_immutable",
-        "documentation": {}
-    },
-    {
-        "label": "txt",
-        "kind": 5,
-        "importPath": "string_methods",
-        "description": "string_methods",
-        "peekOfCode": "txt = \"i like bananas\"\nx=txt.replace(\"bananas\",\"apples\")\nprint(x)\nprint(x.count('a'))",
-        "detail": "string_methods",
         "documentation": {}
     },
     {
