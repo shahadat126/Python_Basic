@@ -3,9 +3,9 @@ class Car:
         self.name= "sujuki" 
    
 class Driver:
-    def drive(self,car):
-        print("driving",car.name)
+    def drive(self,car_name):
+        print("driving",car_name.name)
         
 c1= Car()
 d1=Driver()
-d1.drive(car=c1)
+d1.drive(car_name=c1)

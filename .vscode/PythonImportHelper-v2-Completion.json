@@ -297,19 +297,19 @@
     {
         "label": "Car",
         "kind": 6,
-        "importPath": "Python(OOP).acception",
-        "description": "Python(OOP).acception",
-        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Driver:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Driver()\nd1.drive(car=c1)",
-        "detail": "Python(OOP).acception",
+        "importPath": "Python(OOP).association",
+        "description": "Python(OOP).association",
+        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)",
+        "detail": "Python(OOP).association",
         "documentation": {}
     },
     {
         "label": "Driver",
         "kind": 6,
-        "importPath": "Python(OOP).acception",
-        "description": "Python(OOP).acception",
-        "peekOfCode": "class Driver:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Driver()\nd1.drive(car=c1)",
-        "detail": "Python(OOP).acception",
+        "importPath": "Python(OOP).association",
+        "description": "Python(OOP).association",
+        "peekOfCode": "class Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)",
+        "detail": "Python(OOP).association",
         "documentation": {}
     },
     {
