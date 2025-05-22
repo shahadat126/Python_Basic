@@ -3,9 +3,10 @@ class Student :
     def __init__(self,a,b):# constructor function/method
         self.roll= a
         self.gpa= b
-    def Area(self):
-        area = self.roll  * self.gpa
-        print(area)
+        self.area= self.roll * self.gpa
+    def __str__(self):
+        return "Area : {}".format(self.area)
+        
         
         
     
@@ -13,5 +14,5 @@ class Student :
 result1= Student(10,20)
 result2= Student(100,200)
 
-result1.Area()
-result2.Area()
+print(result1)
+print(result2)

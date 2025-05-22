@@ -295,6 +295,24 @@
         "documentation": {}
     },
     {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python(OOP).acception",
+        "description": "Python(OOP).acception",
+        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Drive:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Drive()\nd1.drive(car=c1)",
+        "detail": "Python(OOP).acception",
+        "documentation": {}
+    },
+    {
+        "label": "Drive",
+        "kind": 6,
+        "importPath": "Python(OOP).acception",
+        "description": "Python(OOP).acception",
+        "peekOfCode": "class Drive:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Drive()\nd1.drive(car=c1)",
+        "detail": "Python(OOP).acception",
+        "documentation": {}
+    },
+    {
         "label": "Fractio",
         "kind": 6,
         "importPath": "Python(OOP).class&object",
@@ -407,7 +425,7 @@
         "kind": 6,
         "importPath": "Python(OOP).constructor",
         "description": "Python(OOP).constructor",
-        "peekOfCode": "class Student :\n    def __init__(self,a,b):# constructor function/method\n        self.roll= a\n        self.gpa= b\n    def Area(self):\n        area = self.roll  * self.gpa\n        print(area)\nresult1= Student(10,20)\nresult2= Student(100,200)\nresult1.Area()",
+        "peekOfCode": "class Student :\n    def __init__(self,a,b):# constructor function/method\n        self.roll= a\n        self.gpa= b\n        self.area= self.roll * self.gpa\n    def __str__(self):\n        return \"Area : {}\".format(self.area)\nresult1= Student(10,20)\nresult2= Student(100,200)\nprint(result1)",
         "detail": "Python(OOP).constructor",
         "documentation": {}
     },
