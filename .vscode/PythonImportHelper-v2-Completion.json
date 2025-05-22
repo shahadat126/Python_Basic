@@ -331,6 +331,15 @@
         "documentation": {}
     },
     {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python(OOP).class_method",
+        "description": "Python(OOP).class_method",
+        "peekOfCode": "class Car:\n    @classmethod\n    def drive(cls):\n        print(\"He is driving a Car\")\nCar.drive()",
+        "detail": "Python(OOP).class_method",
+        "documentation": {}
+    },
+    {
         "label": "Students",
         "kind": 6,
         "importPath": "Python(OOP).class_Object",
