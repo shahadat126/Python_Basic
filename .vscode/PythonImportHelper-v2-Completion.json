@@ -299,16 +299,16 @@
         "kind": 6,
         "importPath": "Python(OOP).acception",
         "description": "Python(OOP).acception",
-        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Drive:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Drive()\nd1.drive(car=c1)",
+        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Driver:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Driver()\nd1.drive(car=c1)",
         "detail": "Python(OOP).acception",
         "documentation": {}
     },
     {
-        "label": "Drive",
+        "label": "Driver",
         "kind": 6,
         "importPath": "Python(OOP).acception",
         "description": "Python(OOP).acception",
-        "peekOfCode": "class Drive:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Drive()\nd1.drive(car=c1)",
+        "peekOfCode": "class Driver:\n    def drive(self,car):\n        print(\"driving\",car.name)\nc1= Car()\nd1=Driver()\nd1.drive(car=c1)",
         "detail": "Python(OOP).acception",
         "documentation": {}
     },
