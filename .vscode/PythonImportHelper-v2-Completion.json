@@ -430,6 +430,15 @@
         "documentation": {}
     },
     {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python(OOP).Static_method",
+        "description": "Python(OOP).Static_method",
+        "peekOfCode": "class Car:\n    @classmethod\n    def drive(cls):\n        print(\"He is driving a Car\")\n    def engine(self):\n        print(\"Starting the engine\")\n    @staticmethod\n    def engine1():\n        print(\"Starting the autoengine\") #static method did not use any variable or call any function\nCar.drive()",
+        "detail": "Python(OOP).Static_method",
+        "documentation": {}
+    },
+    {
         "label": "list1",
         "kind": 5,
         "importPath": "String.stack&queue",
