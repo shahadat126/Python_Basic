@@ -6,5 +6,5 @@
 try:
     with open('sabbir.txt','r') as f:
      print(f.read())
-except FileNotFoundError:
+except IndexError:
     print("File not found")

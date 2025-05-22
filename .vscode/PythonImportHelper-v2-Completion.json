@@ -65,7 +65,7 @@
         "kind": 2,
         "importPath": "Errors vs Exceptions.else_finally_raise",
         "description": "Errors vs Exceptions.else_finally_raise",
-        "peekOfCode": "def check_file(filename):\n    if not filename.endswith('.txt'):\n        raise ValueError(\"only .txt files are allowed\")\n    print(\"valid file\")\ntry:    \n    check_file('data.csv')\nexcept Exception as e:\n    print(e)",
+        "peekOfCode": "def check_file(filename):\n    if filename == \"\":\n        raise FileNotFoundError(\"file not found\")\n    if not filename.endswith('.txt'):\n        raise  (\"only .txt files are allowed\")\n    print(\"file correct\")\ntry:    \n    check_file('data.csv')\nexcept Exception as e:# e = ValueError(\"only .txt files are allowed\") \n    print(\"exception 1\",e)",
         "detail": "Errors vs Exceptions.else_finally_raise",
         "documentation": {}
     },
@@ -137,7 +137,7 @@
         "kind": 5,
         "importPath": "Function.lamda_function",
         "description": "Function.lamda_function",
-        "peekOfCode": "students =  [('abir',94,50),('shimul',85,25),('jahir',95,20)]\nstudents_results = sorted(students,key= lambda x : x[2])\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "peekOfCode": "students =  [('abir',94,50),('shimul',85,25),('jahir',95,20)]\nstudents_results = sorted(students,key= lambda x : x[2],reverse=True)\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
         "detail": "Function.lamda_function",
         "documentation": {}
     },
@@ -146,7 +146,7 @@
         "kind": 5,
         "importPath": "Function.lamda_function",
         "description": "Function.lamda_function",
-        "peekOfCode": "students_results = sorted(students,key= lambda x : x[2])\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "peekOfCode": "students_results = sorted(students,key= lambda x : x[2],reverse=True)\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
         "detail": "Function.lamda_function",
         "documentation": {}
     },
@@ -304,11 +304,47 @@
         "documentation": {}
     },
     {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "Python(OOP).class2",
+        "description": "Python(OOP).class2",
+        "peekOfCode": "class Students :\n    def __init__(self,roll,gpa):\n        self.gender= \"male\"\n        self.city = \"dhaka\"\n        self.Roll= roll\n        self.Gpa= gpa\n        print(\"hi\",self)\n    def __str__(self):\n        return \"Roll : {} \\n Gpa : {}\".format(self.Roll,self.Gpa)\nrahim= Students(101,4.5)",
+        "detail": "Python(OOP).class2",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python(OOP).class2",
+        "description": "Python(OOP).class2",
+        "peekOfCode": "class Car:\n    def __init__(self, model):\n        self.model1 = model  # self refers to car1\ncar1 = Car(\"Toyota\")\nprint(car1.model1)  # Output: Toyota",
+        "detail": "Python(OOP).class2",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "Python(OOP).class2",
+        "description": "Python(OOP).class2",
+        "peekOfCode": "car1 = Car(\"Toyota\")\nprint(car1.model1)  # Output: Toyota",
+        "detail": "Python(OOP).class2",
+        "documentation": {}
+    },
+    {
         "label": "Students",
         "kind": 6,
         "importPath": "Python(OOP).class_Object",
         "description": "Python(OOP).class_Object",
-        "peekOfCode": "class Students:\n    Roll = \"\"\n    Gpa = \"\"\nshihab= Students()\nprint(isinstance(shihab,Students))#is object created ? true\nshihab.Roll=1\nshihab.Gpa= 5\nSabbir= Students()\nSabbir.Roll = 2\nSabbir.Gpa = 4.75",
+        "peekOfCode": "class Students:\n    Roll = \"\"\n    Gpa = \"\"\nshihab= Students()\n# print(isinstance(shihab,Students))#is object created ? true\nshihab.Roll=1\nshihab.Gpa= 5\nSabbir= Students()\nSabbir.Roll = 2\nSabbir.Gpa = 4.75",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "class Car:\n    def __init__(self):\n        self.model=\"\"\n        self.brand = \"\"\ncar1 = Car()\ncar1.brand=\"corrola\"\ncar1.model=\"toyota\"\nprint(car1.model,car1.brand)",
         "detail": "Python(OOP).class_Object",
         "documentation": {}
     },
@@ -317,7 +353,7 @@
         "kind": 5,
         "importPath": "Python(OOP).class_Object",
         "description": "Python(OOP).class_Object",
-        "peekOfCode": "Sabbir.Roll = 2\nSabbir.Gpa = 4.75\nshimul= Students()\nshimul.Roll = 4\nshimul.Gpa = 4.5",
+        "peekOfCode": "Sabbir.Roll = 2\nSabbir.Gpa = 4.75\nshimul= Students()\nshimul.Roll = 4\nshimul.Gpa = 4.5\nprint(shihab.Gpa)\nclass Car:\n    def __init__(self):\n        self.model=\"\"\n        self.brand = \"\"",
         "detail": "Python(OOP).class_Object",
         "documentation": {}
     },
@@ -326,7 +362,7 @@
         "kind": 5,
         "importPath": "Python(OOP).class_Object",
         "description": "Python(OOP).class_Object",
-        "peekOfCode": "Sabbir.Gpa = 4.75\nshimul= Students()\nshimul.Roll = 4\nshimul.Gpa = 4.5",
+        "peekOfCode": "Sabbir.Gpa = 4.75\nshimul= Students()\nshimul.Roll = 4\nshimul.Gpa = 4.5\nprint(shihab.Gpa)\nclass Car:\n    def __init__(self):\n        self.model=\"\"\n        self.brand = \"\"\ncar1 = Car()",
         "detail": "Python(OOP).class_Object",
         "documentation": {}
     },
@@ -335,7 +371,7 @@
         "kind": 5,
         "importPath": "Python(OOP).class_Object",
         "description": "Python(OOP).class_Object",
-        "peekOfCode": "shimul.Roll = 4\nshimul.Gpa = 4.5",
+        "peekOfCode": "shimul.Roll = 4\nshimul.Gpa = 4.5\nprint(shihab.Gpa)\nclass Car:\n    def __init__(self):\n        self.model=\"\"\n        self.brand = \"\"\ncar1 = Car()\ncar1.brand=\"corrola\"\ncar1.model=\"toyota\"",
         "detail": "Python(OOP).class_Object",
         "documentation": {}
     },
@@ -344,8 +380,26 @@
         "kind": 5,
         "importPath": "Python(OOP).class_Object",
         "description": "Python(OOP).class_Object",
-        "peekOfCode": "shimul.Gpa = 4.5",
+        "peekOfCode": "shimul.Gpa = 4.5\nprint(shihab.Gpa)\nclass Car:\n    def __init__(self):\n        self.model=\"\"\n        self.brand = \"\"\ncar1 = Car()\ncar1.brand=\"corrola\"\ncar1.model=\"toyota\"\nprint(car1.model,car1.brand)",
         "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "Python(OOP).class_Object",
+        "description": "Python(OOP).class_Object",
+        "peekOfCode": "car1 = Car()\ncar1.brand=\"corrola\"\ncar1.model=\"toyota\"\nprint(car1.model,car1.brand)",
+        "detail": "Python(OOP).class_Object",
+        "documentation": {}
+    },
+    {
+        "label": "Studen",
+        "kind": 6,
+        "importPath": "Python(OOP).constructor",
+        "description": "Python(OOP).constructor",
+        "peekOfCode": "class Student :\n    def __init__(self,a,b):# constructor function/method\n        self.roll= a\n        self.gpa= b\n    def Area(self):\n        area = self.roll  * self.gpa\n        print(area)\nresult1= Student(10,20)\nresult2= Student(100,200)\nresult1.Area()",
+        "detail": "Python(OOP).constructor",
         "documentation": {}
     },
     {
@@ -389,7 +443,7 @@
         "kind": 5,
         "importPath": "String.string_concat",
         "description": "String.string_concat",
-        "peekOfCode": "a = 'sabil'\nb = \"mia\"\nc = a + b\nprint(c)",
+        "peekOfCode": "a = 'sabil'\nb = \"mia\"\nc = a + b\nprint(c)\nstrings = \"This is a string\"\nprint(strings.split())",
         "detail": "String.string_concat",
         "documentation": {}
     },
@@ -398,7 +452,7 @@
         "kind": 5,
         "importPath": "String.string_concat",
         "description": "String.string_concat",
-        "peekOfCode": "b = \"mia\"\nc = a + b\nprint(c)",
+        "peekOfCode": "b = \"mia\"\nc = a + b\nprint(c)\nstrings = \"This is a string\"\nprint(strings.split())",
         "detail": "String.string_concat",
         "documentation": {}
     },
@@ -407,7 +461,16 @@
         "kind": 5,
         "importPath": "String.string_concat",
         "description": "String.string_concat",
-        "peekOfCode": "c = a + b\nprint(c)",
+        "peekOfCode": "c = a + b\nprint(c)\nstrings = \"This is a string\"\nprint(strings.split())",
+        "detail": "String.string_concat",
+        "documentation": {}
+    },
+    {
+        "label": "strings",
+        "kind": 5,
+        "importPath": "String.string_concat",
+        "description": "String.string_concat",
+        "peekOfCode": "strings = \"This is a string\"\nprint(strings.split())",
         "detail": "String.string_concat",
         "documentation": {}
     },
@@ -875,16 +938,7 @@
         "kind": 2,
         "importPath": "scope_resolution",
         "description": "scope_resolution",
-        "peekOfCode": "def outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n        nonlocal n #this keyword only can change enclosing variable\n        n=\"local\" #local variable\n    inner()\n    print(\"1\",n)\nouter()\nprint(n)",
-        "detail": "scope_resolution",
-        "documentation": {}
-    },
-    {
-        "label": "n",
-        "kind": 5,
-        "importPath": "scope_resolution",
-        "description": "scope_resolution",
-        "peekOfCode": "n = 100  #global function\ndef outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n        nonlocal n #this keyword only can change enclosing variable\n        n=\"local\" #local variable\n    inner()\n    print(\"1\",n)\nouter()\nprint(n)",
+        "peekOfCode": "def outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n         #this keyword only can change global variable\n        print(\"a\",n) #local variable\n    inner()\n    print(\"1\",n)\nouter()\n# n = 100  #global function\n# def outer():",
         "detail": "scope_resolution",
         "documentation": {}
     },

@@ -22,10 +22,13 @@ finally:
     print("Good job")
     
 def check_file(filename):
+    if filename == "":
+        raise FileNotFoundError("file not found")
+        
     if not filename.endswith('.txt'):
-        raise ValueError("only .txt files are allowed")
-    print("valid file")
+        raise  ("only .txt files are allowed")
+    print("file correct")
 try:    
     check_file('data.csv')
-except Exception as e:
-    print(e)
+except Exception as e:# e = ValueError("only .txt files are allowed") 
+    print("exception 1",e)
