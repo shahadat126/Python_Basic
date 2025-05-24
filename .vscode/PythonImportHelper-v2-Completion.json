@@ -297,9 +297,36 @@
     {
         "label": "Car",
         "kind": 6,
+        "importPath": "Python(OOP).aggregation",
+        "description": "Python(OOP).aggregation",
+        "peekOfCode": "class Car:\n    def __init__(self,car):\n        self.car = car\nclass Engine:\n    def start(self):\n        print(\"Start Engine\")\ne1 =Engine()\nc1 = Car(car=e1)\nc1.car.start()",
+        "detail": "Python(OOP).aggregation",
+        "documentation": {}
+    },
+    {
+        "label": "Engine",
+        "kind": 6,
+        "importPath": "Python(OOP).aggregation",
+        "description": "Python(OOP).aggregation",
+        "peekOfCode": "class Engine:\n    def start(self):\n        print(\"Start Engine\")\ne1 =Engine()\nc1 = Car(car=e1)\nc1.car.start()",
+        "detail": "Python(OOP).aggregation",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "Python(OOP).aggregation",
+        "description": "Python(OOP).aggregation",
+        "peekOfCode": "c1 = Car(car=e1)\nc1.car.start()",
+        "detail": "Python(OOP).aggregation",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
         "importPath": "Python(OOP).association",
         "description": "Python(OOP).association",
-        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)",
+        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)\nclass Teacher:",
         "detail": "Python(OOP).association",
         "documentation": {}
     },
@@ -308,7 +335,43 @@
         "kind": 6,
         "importPath": "Python(OOP).association",
         "description": "Python(OOP).association",
-        "peekOfCode": "class Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)",
+        "peekOfCode": "class Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)\nclass Teacher:\n    def __init__(self, name):\n        self.t_name = name\nclass School:",
+        "detail": "Python(OOP).association",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "kind": 6,
+        "importPath": "Python(OOP).association",
+        "description": "Python(OOP).association",
+        "peekOfCode": "class Teacher:\n    def __init__(self, name):\n        self.t_name = name\nclass School:\n    def __init__(self, name):\n        self.s_name = name\n        self.teachers = []\n    def add_teacher(self, teacher):\n        self.teachers.append(teacher)\n        self.f=self.teachers",
+        "detail": "Python(OOP).association",
+        "documentation": {}
+    },
+    {
+        "label": "School",
+        "kind": 6,
+        "importPath": "Python(OOP).association",
+        "description": "Python(OOP).association",
+        "peekOfCode": "class School:\n    def __init__(self, name):\n        self.s_name = name\n        self.teachers = []\n    def add_teacher(self, teacher):\n        self.teachers.append(teacher)\n        self.f=self.teachers\nt1 = Teacher(\"Mr. Smith\")\ns1 = School(\"Greenwood High\")\ns1.add_teacher(t1)",
+        "detail": "Python(OOP).association",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "Python(OOP).association",
+        "description": "Python(OOP).association",
+        "peekOfCode": "t1 = Teacher(\"Mr. Smith\")\ns1 = School(\"Greenwood High\")\ns1.add_teacher(t1)\nprint(s1.name,\"\\n\",s1.f[0].t_name)",
+        "detail": "Python(OOP).association",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "Python(OOP).association",
+        "description": "Python(OOP).association",
+        "peekOfCode": "s1 = School(\"Greenwood High\")\ns1.add_teacher(t1)\nprint(s1.name,\"\\n\",s1.f[0].t_name)",
         "detail": "Python(OOP).association",
         "documentation": {}
     },
@@ -445,6 +508,24 @@
         "description": "Python(OOP).object",
         "peekOfCode": "another_car = Car('Toyota','Camry', 2020)\nanother_car.move()\nprint(mycar.make,another_car.make)",
         "detail": "Python(OOP).object",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Python(OOP).polymorphysm",
+        "description": "Python(OOP).polymorphysm",
+        "peekOfCode": "class Shape:\n    def area(self,a,b=10):\n        return a*b\nc = Shape()\nc.area(10)\nprint(c.area(12,12))",
+        "detail": "Python(OOP).polymorphysm",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python(OOP).polymorphysm",
+        "description": "Python(OOP).polymorphysm",
+        "peekOfCode": "c = Shape()\nc.area(10)\nprint(c.area(12,12))",
+        "detail": "Python(OOP).polymorphysm",
         "documentation": {}
     },
     {
