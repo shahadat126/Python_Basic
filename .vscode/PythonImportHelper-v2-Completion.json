@@ -27,6 +27,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "functools",
         "kind": 6,
         "isExtraImport": true,
@@ -292,6 +308,573 @@
         "description": "Function.user_define_function",
         "peekOfCode": "get = hello()\nprint(get)",
         "detail": "Function.user_define_function",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "Fundamental.area",
+        "description": "Fundamental.area",
+        "peekOfCode": "base = float(input(\"Enter base: \"))\nheight = float(input(\"Enter height: \"))\nradius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "Fundamental.area",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Fundamental.area",
+        "description": "Fundamental.area",
+        "peekOfCode": "height = float(input(\"Enter height: \"))\nradius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "Fundamental.area",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Fundamental.area",
+        "description": "Fundamental.area",
+        "peekOfCode": "radius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "Fundamental.area",
+        "documentation": {}
+    },
+    {
+        "label": "Triangle_area",
+        "kind": 5,
+        "importPath": "Fundamental.area",
+        "description": "Fundamental.area",
+        "peekOfCode": "Triangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "Fundamental.area",
+        "documentation": {}
+    },
+    {
+        "label": "Circle_area",
+        "kind": 5,
+        "importPath": "Fundamental.area",
+        "description": "Fundamental.area",
+        "peekOfCode": "Circle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
+        "detail": "Fundamental.area",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Fundamental.data-type",
+        "description": "Fundamental.data-type",
+        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2",
+        "detail": "Fundamental.data-type",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Fundamental.data-type",
+        "description": "Fundamental.data-type",
+        "peekOfCode": "y = 6.6\nz = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2\nprint(n3)",
+        "detail": "Fundamental.data-type",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Fundamental.data-type",
+        "description": "Fundamental.data-type",
+        "peekOfCode": "z = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2\nprint(n3)\nprint(x)",
+        "detail": "Fundamental.data-type",
+        "documentation": {}
+    },
+    {
+        "label": "num_to_words",
+        "kind": 5,
+        "importPath": "Fundamental.dictionary",
+        "description": "Fundamental.dictionary",
+        "peekOfCode": "num_to_words = dict()\nnum_to_words[1]= 'one'\nnum_to_words[2]= 'two'\nnum_to_words[3]= 'three'\nprint(num_to_words,type(num_to_words))\nnum_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)",
+        "detail": "Fundamental.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "num_to_words",
+        "kind": 5,
+        "importPath": "Fundamental.dictionary",
+        "description": "Fundamental.dictionary",
+        "peekOfCode": "num_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)\nprint(num_to_words[3])\nif 5 in num_to_words:\n    print(\"Available\")\nelse:\n    print(\"Not Found \")",
+        "detail": "Fundamental.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.dictionary",
+        "description": "Fundamental.dictionary",
+        "peekOfCode": "a = [1,2,3]\nb = [\"Mango\",\"Banana\",\"Apple\"]\n# {1:\"Mango\",2:\"Banana\",3:\"Apple\"}\nprint(list(zip(a,b)))\nc = dict(zip(a,b))\nprint(c)\nprint(c[1])",
+        "detail": "Fundamental.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Fundamental.dictionary",
+        "description": "Fundamental.dictionary",
+        "peekOfCode": "b = [\"Mango\",\"Banana\",\"Apple\"]\n# {1:\"Mango\",2:\"Banana\",3:\"Apple\"}\nprint(list(zip(a,b)))\nc = dict(zip(a,b))\nprint(c)\nprint(c[1])",
+        "detail": "Fundamental.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Fundamental.dictionary",
+        "description": "Fundamental.dictionary",
+        "peekOfCode": "c = dict(zip(a,b))\nprint(c)\nprint(c[1])",
+        "detail": "Fundamental.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "Fundamental.dict_comprehensions",
+        "description": "Fundamental.dict_comprehensions",
+        "peekOfCode": "nums = list(range(0,11))\nresult = {i : \"Even\" if i%2==0 else \"odd\" for i in nums}\nprint(result)",
+        "detail": "Fundamental.dict_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Fundamental.dict_comprehensions",
+        "description": "Fundamental.dict_comprehensions",
+        "peekOfCode": "result = {i : \"Even\" if i%2==0 else \"odd\" for i in nums}\nprint(result)",
+        "detail": "Fundamental.dict_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.findBig",
+        "description": "Fundamental.findBig",
+        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "detail": "Fundamental.findBig",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Fundamental.findBig",
+        "description": "Fundamental.findBig",
+        "peekOfCode": "b = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "detail": "Fundamental.findBig",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Fundamental.findBig",
+        "description": "Fundamental.findBig",
+        "peekOfCode": "c = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
+        "detail": "Fundamental.findBig",
+        "documentation": {}
+    },
+    {
+        "label": "multiplication",
+        "kind": 2,
+        "importPath": "Fundamental.for_loop",
+        "description": "Fundamental.for_loop",
+        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nmultiplication(4)",
+        "detail": "Fundamental.for_loop",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "Fundamental.grade-point",
+        "description": "Fundamental.grade-point",
+        "peekOfCode": "marks = float(input(\"Enter a number\"))\nif marks >= 80 and marks <=100:\n        print(\"A+\")\nelif marks >= 70 and marks<80:\n        print(\"A\")\nelif marks >= 60 and marks<70:\n        print(\"A-\")\nelif marks >= 50 and marks <60:\n        print(\"B\")\nelif marks >= 40 and marks <50:",
+        "detail": "Fundamental.grade-point",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.if_else",
+        "description": "Fundamental.if_else",
+        "peekOfCode": "a = 20\nb = 33\nif a > b:\n  print(\"a is big number \" , a)\nelse:\n  print(\"b is  big number\" ,b)",
+        "detail": "Fundamental.if_else",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Fundamental.if_else",
+        "description": "Fundamental.if_else",
+        "peekOfCode": "b = 33\nif a > b:\n  print(\"a is big number \" , a)\nelse:\n  print(\"b is  big number\" ,b)",
+        "detail": "Fundamental.if_else",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Fundamental.Leap-Year",
+        "description": "Fundamental.Leap-Year",
+        "peekOfCode": "year = input(\"Year : \")\nyear=int(year)\nif year % 4 == 0:\n    if year % 100== 0:\n        if year % 400 == 0:\n            print(year, \"is leap year\")\n        else:\n            print(year, \"is not leap year\")\n    else:\n        print(year, \"is  leap year\")",
+        "detail": "Fundamental.Leap-Year",
+        "documentation": {}
+    },
+    {
+        "label": "li",
+        "kind": 5,
+        "importPath": "Fundamental.linear_search",
+        "description": "Fundamental.linear_search",
+        "peekOfCode": "li = [1,2,6,10,100,14,5,9]\n# found = li.index(5)\n# found = 5 in li\n# print(found)\n# key = 6 \n# flag= False\n# for item in li:\n#     if key==61:\n#         print(\"found\")\n#         flag=True",
+        "detail": "Fundamental.linear_search",
+        "documentation": {}
+    },
+    {
+        "label": "list4",
+        "kind": 5,
+        "importPath": "Fundamental.list",
+        "description": "Fundamental.list",
+        "peekOfCode": "list4 = [\"shihab\",\"sabbir\",\"shoel\",\"shimul\",\"adnan\",\"shourab\"]\nprint(list4[4:1:-1]) #if start point not greater then end point in reverse time then it will nothing return",
+        "detail": "Fundamental.list",
+        "documentation": {}
+    },
+    {
+        "label": "li",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "li = ['apple','banana','orange','mango']\nfruits = [x.capitalize() for x in li]\nprint(fruits)\nli_len= [len(x) for x in li]\nprint(li_len)\ncube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "fruits = [x.capitalize() for x in li]\nprint(fruits)\nli_len= [len(x) for x in li]\nprint(li_len)\ncube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "cube_list",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "cube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "cube_list2",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "cube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "cube_list3",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "cube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "a = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "result = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]\nnew_b = [i**2 if i % 2==0 else i for i in b]",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "new_result",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "new_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]\nnew_b = [i**2 if i % 2==0 else i for i in b]\nprint(new_b)",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "new_b",
+        "kind": 5,
+        "importPath": "Fundamental.list_comprehensions",
+        "description": "Fundamental.list_comprehensions",
+        "peekOfCode": "new_b = [i**2 if i % 2==0 else i for i in b]\nprint(new_b)",
+        "detail": "Fundamental.list_comprehensions",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.math_function",
+        "description": "Fundamental.math_function",
+        "peekOfCode": "a = 4.5\ny = 4.1\nprint(math.ceil(a))\nprint(math.ceil(y))\nprint(math.floor(a))\nprint(math.floor(y))\nb= 0.004\nprint(math.ceil(b))\nprint(math.floor(b))\n#Round ",
+        "detail": "Fundamental.math_function",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Fundamental.math_function",
+        "description": "Fundamental.math_function",
+        "peekOfCode": "y = 4.1\nprint(math.ceil(a))\nprint(math.ceil(y))\nprint(math.floor(a))\nprint(math.floor(y))\nb= 0.004\nprint(math.ceil(b))\nprint(math.floor(b))\n#Round \ntax = 420.49 # .1 to .5 floor and .51 to .99 ceil",
+        "detail": "Fundamental.math_function",
+        "documentation": {}
+    },
+    {
+        "label": "tax",
+        "kind": 5,
+        "importPath": "Fundamental.math_function",
+        "description": "Fundamental.math_function",
+        "peekOfCode": "tax = 420.49 # .1 to .5 floor and .51 to .99 ceil\nprint(round(tax))",
+        "detail": "Fundamental.math_function",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "Fundamental.max.min.sum",
+        "description": "Fundamental.max.min.sum",
+        "peekOfCode": "results = 0\nfor num in numbers:\n    results= results + num\nprint(results)",
+        "detail": "Fundamental.max.min.sum",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Fundamental.odd_even",
+        "description": "Fundamental.odd_even",
+        "peekOfCode": "number = int(input(\"enter a number\"))\nif number % 2 ==0 :\n    print(\"Number is even\")\nelse:\n    print(\"Number is odd\")",
+        "detail": "Fundamental.odd_even",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Fundamental.postive",
+        "description": "Fundamental.postive",
+        "peekOfCode": "number = int(input(\"Enter a number: \"))\nif number>0 :\n    print(\"Number is postive\")\nelif number<0 :\n    print(\"Number is negative\")\nelse :\n    print(\"number is Zero\")",
+        "detail": "Fundamental.postive",
+        "documentation": {}
+    },
+    {
+        "label": "li",
+        "kind": 5,
+        "importPath": "Fundamental.range",
+        "description": "Fundamental.range",
+        "peekOfCode": "li = range(1,11)\nprint(type(li))\nfor x in li:\n    print(x)\nli2 = list(range(1,11))\nprint(li2)\neven_numbers= list(range(2,101,2))\nprint(even_numbers)\nnumbers= list(range(10))\nprint(numbers)",
+        "detail": "Fundamental.range",
+        "documentation": {}
+    },
+    {
+        "label": "li2",
+        "kind": 5,
+        "importPath": "Fundamental.range",
+        "description": "Fundamental.range",
+        "peekOfCode": "li2 = list(range(1,11))\nprint(li2)\neven_numbers= list(range(2,101,2))\nprint(even_numbers)\nnumbers= list(range(10))\nprint(numbers)\nnegative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)",
+        "detail": "Fundamental.range",
+        "documentation": {}
+    },
+    {
+        "label": "negative2",
+        "kind": 5,
+        "importPath": "Fundamental.range",
+        "description": "Fundamental.range",
+        "peekOfCode": "negative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)\nlist4=tuple(range(1,11,2))\nprint(list4)",
+        "detail": "Fundamental.range",
+        "documentation": {}
+    },
+    {
+        "label": "negative",
+        "kind": 5,
+        "importPath": "Fundamental.range",
+        "description": "Fundamental.range",
+        "peekOfCode": "negative = list(range(10,0,-5))\nprint(negative)\nlist4=tuple(range(1,11,2))\nprint(list4)",
+        "detail": "Fundamental.range",
+        "documentation": {}
+    },
+    {
+        "label": "outer",
+        "kind": 2,
+        "importPath": "Fundamental.scope_resolution",
+        "description": "Fundamental.scope_resolution",
+        "peekOfCode": "def outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n         #this keyword only can change global variable\n        print(\"a\",n) #local variable\n    inner()\n    print(\"1\",n)\nouter()\n# n = 100  #global function\n# def outer():",
+        "detail": "Fundamental.scope_resolution",
+        "documentation": {}
+    },
+    {
+        "label": "colors_choice",
+        "kind": 5,
+        "importPath": "Fundamental.set&dic_comprehenstions",
+        "description": "Fundamental.set&dic_comprehenstions",
+        "peekOfCode": "colors_choice = [('irfan','blue'),('shakib','green'),('hafeej','light'),('shodi','black'),('amla','deep_G')]\ncolors_dic={name:color for name,color in colors_choice}\nprint(colors_dic)\ncolors_set={color for color in colors_dic.values()}\ncolors_name={name for name in colors_dic.keys()}\nprint(colors_name)\nprint(colors_set)",
+        "detail": "Fundamental.set&dic_comprehenstions",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Fundamental.set",
+        "description": "Fundamental.set",
+        "peekOfCode": "s = set ()\ns.add(1)\ns.add(2)\ns.add(3)\ns.add(2)\nprint(s)\ns2=set()\ns2.add(4)\ns2.add(2)\ns2.add(5)",
+        "detail": "Fundamental.set",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Fundamental.stack&queue",
+        "description": "Fundamental.stack&queue",
+        "peekOfCode": "list1 = [\"bangla\"]\nlist1.append(\"english\")\nprint(list1)\nlist1.append(\"math\")\nlist1.append(\"SCIENCE\")\nlist1.pop()\nprint(list1)\n#queue fisrt in first out\nfrom collections import deque\nlist2 = deque([\"1\",\"2\",\"3\",\"4\"])",
+        "detail": "Fundamental.stack&queue",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "Fundamental.stack&queue",
+        "description": "Fundamental.stack&queue",
+        "peekOfCode": "list2 = deque([\"1\",\"2\",\"3\",\"4\"])\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nprint(list2)\nif not list2:\n    print(\"No person left\")",
+        "detail": "Fundamental.stack&queue",
+        "documentation": {}
+    },
+    {
+        "label": "first_number",
+        "kind": 5,
+        "importPath": "Fundamental.sum_avg",
+        "description": "Fundamental.sum_avg",
+        "peekOfCode": "first_number = float(input(\"Enter the first number: \"))\nsecond_number = float(input(\"Enter the second number: \"))\nthird_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "Fundamental.sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "second_number",
+        "kind": 5,
+        "importPath": "Fundamental.sum_avg",
+        "description": "Fundamental.sum_avg",
+        "peekOfCode": "second_number = float(input(\"Enter the second number: \"))\nthird_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "Fundamental.sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "third_number",
+        "kind": 5,
+        "importPath": "Fundamental.sum_avg",
+        "description": "Fundamental.sum_avg",
+        "peekOfCode": "third_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "Fundamental.sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Fundamental.sum_avg",
+        "description": "Fundamental.sum_avg",
+        "peekOfCode": "result = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "Fundamental.sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "avg",
+        "kind": 5,
+        "importPath": "Fundamental.sum_avg",
+        "description": "Fundamental.sum_avg",
+        "peekOfCode": "avg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
+        "detail": "Fundamental.sum_avg",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.ternary",
+        "description": "Fundamental.ternary",
+        "peekOfCode": "a = int(input(\"Enter a Number\"))\nb = int(input(\"Enter another Number\"))\nmax_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
+        "detail": "Fundamental.ternary",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Fundamental.ternary",
+        "description": "Fundamental.ternary",
+        "peekOfCode": "b = int(input(\"Enter another Number\"))\nmax_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
+        "detail": "Fundamental.ternary",
+        "documentation": {}
+    },
+    {
+        "label": "max_num",
+        "kind": 5,
+        "importPath": "Fundamental.ternary",
+        "description": "Fundamental.ternary",
+        "peekOfCode": "max_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
+        "detail": "Fundamental.ternary",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Fundamental.Tuple",
+        "description": "Fundamental.Tuple",
+        "peekOfCode": "t = tuple(reversed(t))\nprint(t)",
+        "detail": "Fundamental.Tuple",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.variable",
+        "description": "Fundamental.variable",
+        "peekOfCode": "a = 18//4\nprint(a)# integer division\nprint(float(a))#convert into float\nb=10/5\nprint(b)# float division\nprint(int(b))#convert into integer\nx=18\ny=4\nmax = x if x<y else y\nprint(max)",
+        "detail": "Fundamental.variable",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 5,
+        "importPath": "Fundamental.variable",
+        "description": "Fundamental.variable",
+        "peekOfCode": "max = x if x<y else y\nprint(max)",
+        "detail": "Fundamental.variable",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Fundamental.while_loop",
+        "description": "Fundamental.while_loop",
+        "peekOfCode": "a = 3\nwhile a<=21:\n  if a == 15:\n    break\n  print(a)\n  a = a+3\nprint(\"Done\")",
+        "detail": "Fundamental.while_loop",
+        "documentation": {}
+    },
+    {
+        "label": "bill_payment_Day",
+        "kind": 5,
+        "importPath": "Module.datetime",
+        "description": "Module.datetime",
+        "peekOfCode": "bill_payment_Day = today + timedelta(days=5, hours=2, minutes=20)\nprint(bill_payment_Day)\nbill_payment_Day = today - timedelta(days=3 , seconds=50)\nprint(bill_payment_Day)",
+        "detail": "Module.datetime",
+        "documentation": {}
+    },
+    {
+        "label": "bill_payment_Day",
+        "kind": 5,
+        "importPath": "Module.datetime",
+        "description": "Module.datetime",
+        "peekOfCode": "bill_payment_Day = today - timedelta(days=3 , seconds=50)\nprint(bill_payment_Day)",
+        "detail": "Module.datetime",
         "documentation": {}
     },
     {
@@ -652,555 +1235,6 @@
         "description": "String.string_methods",
         "peekOfCode": "txt = \"i like bananas\"\nx=txt.replace(\"bananas\",\"apples\")\nprint(x)\nprint(x.count('a'))",
         "detail": "String.string_methods",
-        "documentation": {}
-    },
-    {
-        "label": "base",
-        "kind": 5,
-        "importPath": "area",
-        "description": "area",
-        "peekOfCode": "base = float(input(\"Enter base: \"))\nheight = float(input(\"Enter height: \"))\nradius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
-        "detail": "area",
-        "documentation": {}
-    },
-    {
-        "label": "height",
-        "kind": 5,
-        "importPath": "area",
-        "description": "area",
-        "peekOfCode": "height = float(input(\"Enter height: \"))\nradius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
-        "detail": "area",
-        "documentation": {}
-    },
-    {
-        "label": "radius",
-        "kind": 5,
-        "importPath": "area",
-        "description": "area",
-        "peekOfCode": "radius = float(input(\"Enter radius: \"))\nTriangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
-        "detail": "area",
-        "documentation": {}
-    },
-    {
-        "label": "Triangle_area",
-        "kind": 5,
-        "importPath": "area",
-        "description": "area",
-        "peekOfCode": "Triangle_area = 0.5 * base * height\nCircle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
-        "detail": "area",
-        "documentation": {}
-    },
-    {
-        "label": "Circle_area",
-        "kind": 5,
-        "importPath": "area",
-        "description": "area",
-        "peekOfCode": "Circle_area = 3.1416 * radius * radius\nprint(\"Area of Triangle :\", Triangle_area)\nprint(\"Area of Circle\", Circle_area)",
-        "detail": "area",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "data-type",
-        "description": "data-type",
-        "peekOfCode": "x = 5\ny = 6.6\nz = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2",
-        "detail": "data-type",
-        "documentation": {}
-    },
-    {
-        "label": "y",
-        "kind": 5,
-        "importPath": "data-type",
-        "description": "data-type",
-        "peekOfCode": "y = 6.6\nz = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2\nprint(n3)",
-        "detail": "data-type",
-        "documentation": {}
-    },
-    {
-        "label": "z",
-        "kind": 5,
-        "importPath": "data-type",
-        "description": "data-type",
-        "peekOfCode": "z = \"sabil\"\nn1=6\nn2=2\nn3=n1**n2\nprint(n3)\nn1=4\nprint(n3)\nn3=n1**n2\nprint(n3)\nprint(x)",
-        "detail": "data-type",
-        "documentation": {}
-    },
-    {
-        "label": "num_to_words",
-        "kind": 5,
-        "importPath": "dictionary",
-        "description": "dictionary",
-        "peekOfCode": "num_to_words = dict()\nnum_to_words[1]= 'one'\nnum_to_words[2]= 'two'\nnum_to_words[3]= 'three'\nprint(num_to_words,type(num_to_words))\nnum_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)",
-        "detail": "dictionary",
-        "documentation": {}
-    },
-    {
-        "label": "num_to_words",
-        "kind": 5,
-        "importPath": "dictionary",
-        "description": "dictionary",
-        "peekOfCode": "num_to_words = {1: 'one', 2: 'two', 3: 'three'}\nfruits={'S':'Shimul','K':'Keya'}\nprint(fruits.get('K'))\nnum_to_words[4]='four'\nprint(num_to_words)\nprint(num_to_words[3])\nif 5 in num_to_words:\n    print(\"Available\")\nelse:\n    print(\"Not Found \")",
-        "detail": "dictionary",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "dictionary",
-        "description": "dictionary",
-        "peekOfCode": "a = [1,2,3]\nb = [\"Mango\",\"Banana\",\"Apple\"]\n# {1:\"Mango\",2:\"Banana\",3:\"Apple\"}\nprint(list(zip(a,b)))\nc = dict(zip(a,b))\nprint(c)\nprint(c[1])",
-        "detail": "dictionary",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "dictionary",
-        "description": "dictionary",
-        "peekOfCode": "b = [\"Mango\",\"Banana\",\"Apple\"]\n# {1:\"Mango\",2:\"Banana\",3:\"Apple\"}\nprint(list(zip(a,b)))\nc = dict(zip(a,b))\nprint(c)\nprint(c[1])",
-        "detail": "dictionary",
-        "documentation": {}
-    },
-    {
-        "label": "c",
-        "kind": 5,
-        "importPath": "dictionary",
-        "description": "dictionary",
-        "peekOfCode": "c = dict(zip(a,b))\nprint(c)\nprint(c[1])",
-        "detail": "dictionary",
-        "documentation": {}
-    },
-    {
-        "label": "nums",
-        "kind": 5,
-        "importPath": "dict_comprehensions",
-        "description": "dict_comprehensions",
-        "peekOfCode": "nums = list(range(0,11))\nresult = {i : \"Even\" if i%2==0 else \"odd\" for i in nums}\nprint(result)",
-        "detail": "dict_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "result",
-        "kind": 5,
-        "importPath": "dict_comprehensions",
-        "description": "dict_comprehensions",
-        "peekOfCode": "result = {i : \"Even\" if i%2==0 else \"odd\" for i in nums}\nprint(result)",
-        "detail": "dict_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "findBig",
-        "description": "findBig",
-        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
-        "detail": "findBig",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "findBig",
-        "description": "findBig",
-        "peekOfCode": "b = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
-        "detail": "findBig",
-        "documentation": {}
-    },
-    {
-        "label": "c",
-        "kind": 5,
-        "importPath": "findBig",
-        "description": "findBig",
-        "peekOfCode": "c = int(input(\"Enter third number: \"))\nif a>b and a>c :\n    print(\"a is big number\")\nelif b>a and b>c :\n    print(\"b is big number\")\nelse:\n    print(\"c is big number\")",
-        "detail": "findBig",
-        "documentation": {}
-    },
-    {
-        "label": "multiplication",
-        "kind": 2,
-        "importPath": "for_loop",
-        "description": "for_loop",
-        "peekOfCode": "def multiplication(n):\n    for i in range(1,11):\n        print(\"{} x {} = {}\".format(n,i,n*i))\nmultiplication(4)",
-        "detail": "for_loop",
-        "documentation": {}
-    },
-    {
-        "label": "marks",
-        "kind": 5,
-        "importPath": "grade-point",
-        "description": "grade-point",
-        "peekOfCode": "marks = float(input(\"Enter a number\"))\nif marks >= 80 and marks <=100:\n        print(\"A+\")\nelif marks >= 70 and marks<80:\n        print(\"A\")\nelif marks >= 60 and marks<70:\n        print(\"A-\")\nelif marks >= 50 and marks <60:\n        print(\"B\")\nelif marks >= 40 and marks <50:",
-        "detail": "grade-point",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "if_else",
-        "description": "if_else",
-        "peekOfCode": "a = 20\nb = 33\nif a > b:\n  print(\"a is big number \" , a)\nelse:\n  print(\"b is  big number\" ,b)",
-        "detail": "if_else",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "if_else",
-        "description": "if_else",
-        "peekOfCode": "b = 33\nif a > b:\n  print(\"a is big number \" , a)\nelse:\n  print(\"b is  big number\" ,b)",
-        "detail": "if_else",
-        "documentation": {}
-    },
-    {
-        "label": "year",
-        "kind": 5,
-        "importPath": "Leap-Year",
-        "description": "Leap-Year",
-        "peekOfCode": "year = input(\"Year : \")\nyear=int(year)\nif year % 4 == 0:\n    if year % 100== 0:\n        if year % 400 == 0:\n            print(year, \"is leap year\")\n        else:\n            print(year, \"is not leap year\")\n    else:\n        print(year, \"is  leap year\")",
-        "detail": "Leap-Year",
-        "documentation": {}
-    },
-    {
-        "label": "li",
-        "kind": 5,
-        "importPath": "linear_search",
-        "description": "linear_search",
-        "peekOfCode": "li = [1,2,6,10,100,14,5,9]\n# found = li.index(5)\n# found = 5 in li\n# print(found)\n# key = 6 \n# flag= False\n# for item in li:\n#     if key==61:\n#         print(\"found\")\n#         flag=True",
-        "detail": "linear_search",
-        "documentation": {}
-    },
-    {
-        "label": "list4",
-        "kind": 5,
-        "importPath": "list",
-        "description": "list",
-        "peekOfCode": "list4 = [\"shihab\",\"sabbir\",\"shoel\",\"shimul\",\"adnan\",\"shourab\"]\nprint(list4[4:1:-1]) #if start point not greater then end point in reverse time then it will nothing return",
-        "detail": "list",
-        "documentation": {}
-    },
-    {
-        "label": "li",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "li = ['apple','banana','orange','mango']\nfruits = [x.capitalize() for x in li]\nprint(fruits)\nli_len= [len(x) for x in li]\nprint(li_len)\ncube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "fruits",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "fruits = [x.capitalize() for x in li]\nprint(fruits)\nli_len= [len(x) for x in li]\nprint(li_len)\ncube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "cube_list",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "cube_list = [x*x*x for x in range(1,11)]\nprint(cube_list)\ncube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "cube_list2",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "cube_list2 = [x*x*x for x in range(1,11) if x % 2==1]\nprint(cube_list2)\ncube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "cube_list3",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "cube_list3 = [x for x in range(1,11) if x % 2==1]\nprint(cube_list3)\na = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "a = [1,10,23,24,26,90]\nresult = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "result",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "result = []\n# for i in a:\n#     if i % 2 == 0:\n#         result.append(i)\n# print(result)\n#list comprehension\nnew_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]\nnew_b = [i**2 if i % 2==0 else i for i in b]",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "new_result",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "new_result = [i for i in a if i %2==0]\nprint(new_result)\nb=[1,2,3,4,5]\nnew_b = [i**2 if i % 2==0 else i for i in b]\nprint(new_b)",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "new_b",
-        "kind": 5,
-        "importPath": "list_comprehensions",
-        "description": "list_comprehensions",
-        "peekOfCode": "new_b = [i**2 if i % 2==0 else i for i in b]\nprint(new_b)",
-        "detail": "list_comprehensions",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "math_function",
-        "description": "math_function",
-        "peekOfCode": "a = 4.5\ny = 4.1\nprint(math.ceil(a))\nprint(math.ceil(y))\nprint(math.floor(a))\nprint(math.floor(y))\nb= 0.004\nprint(math.ceil(b))\nprint(math.floor(b))\n#Round ",
-        "detail": "math_function",
-        "documentation": {}
-    },
-    {
-        "label": "y",
-        "kind": 5,
-        "importPath": "math_function",
-        "description": "math_function",
-        "peekOfCode": "y = 4.1\nprint(math.ceil(a))\nprint(math.ceil(y))\nprint(math.floor(a))\nprint(math.floor(y))\nb= 0.004\nprint(math.ceil(b))\nprint(math.floor(b))\n#Round \ntax = 420.49 # .1 to .5 floor and .51 to .99 ceil",
-        "detail": "math_function",
-        "documentation": {}
-    },
-    {
-        "label": "tax",
-        "kind": 5,
-        "importPath": "math_function",
-        "description": "math_function",
-        "peekOfCode": "tax = 420.49 # .1 to .5 floor and .51 to .99 ceil\nprint(round(tax))",
-        "detail": "math_function",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": "max.min.sum",
-        "description": "max.min.sum",
-        "peekOfCode": "results = 0\nfor num in numbers:\n    results= results + num\nprint(results)",
-        "detail": "max.min.sum",
-        "documentation": {}
-    },
-    {
-        "label": "number",
-        "kind": 5,
-        "importPath": "odd_even",
-        "description": "odd_even",
-        "peekOfCode": "number = int(input(\"enter a number\"))\nif number % 2 ==0 :\n    print(\"Number is even\")\nelse:\n    print(\"Number is odd\")",
-        "detail": "odd_even",
-        "documentation": {}
-    },
-    {
-        "label": "number",
-        "kind": 5,
-        "importPath": "postive",
-        "description": "postive",
-        "peekOfCode": "number = int(input(\"Enter a number: \"))\nif number>0 :\n    print(\"Number is postive\")\nelif number<0 :\n    print(\"Number is negative\")\nelse :\n    print(\"number is Zero\")",
-        "detail": "postive",
-        "documentation": {}
-    },
-    {
-        "label": "li",
-        "kind": 5,
-        "importPath": "range",
-        "description": "range",
-        "peekOfCode": "li = range(1,11)\nprint(type(li))\nfor x in li:\n    print(x)\nli2 = list(range(1,11))\nprint(li2)\neven_numbers= list(range(2,101,2))\nprint(even_numbers)\nnumbers= list(range(10))\nprint(numbers)",
-        "detail": "range",
-        "documentation": {}
-    },
-    {
-        "label": "li2",
-        "kind": 5,
-        "importPath": "range",
-        "description": "range",
-        "peekOfCode": "li2 = list(range(1,11))\nprint(li2)\neven_numbers= list(range(2,101,2))\nprint(even_numbers)\nnumbers= list(range(10))\nprint(numbers)\nnegative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)",
-        "detail": "range",
-        "documentation": {}
-    },
-    {
-        "label": "negative2",
-        "kind": 5,
-        "importPath": "range",
-        "description": "range",
-        "peekOfCode": "negative2 = list(range(10,0,-1))\nprint(negative2)\nnegative = list(range(10,0,-5))\nprint(negative)\nlist4=tuple(range(1,11,2))\nprint(list4)",
-        "detail": "range",
-        "documentation": {}
-    },
-    {
-        "label": "negative",
-        "kind": 5,
-        "importPath": "range",
-        "description": "range",
-        "peekOfCode": "negative = list(range(10,0,-5))\nprint(negative)\nlist4=tuple(range(1,11,2))\nprint(list4)",
-        "detail": "range",
-        "documentation": {}
-    },
-    {
-        "label": "outer",
-        "kind": 2,
-        "importPath": "scope_resolution",
-        "description": "scope_resolution",
-        "peekOfCode": "def outer():\n    n=\"enclosing\" #enclosing variable\n    def inner():\n         #this keyword only can change global variable\n        print(\"a\",n) #local variable\n    inner()\n    print(\"1\",n)\nouter()\n# n = 100  #global function\n# def outer():",
-        "detail": "scope_resolution",
-        "documentation": {}
-    },
-    {
-        "label": "colors_choice",
-        "kind": 5,
-        "importPath": "set&dic_comprehenstions",
-        "description": "set&dic_comprehenstions",
-        "peekOfCode": "colors_choice = [('irfan','blue'),('shakib','green'),('hafeej','light'),('shodi','black'),('amla','deep_G')]\ncolors_dic={name:color for name,color in colors_choice}\nprint(colors_dic)\ncolors_set={color for color in colors_dic.values()}\ncolors_name={name for name in colors_dic.keys()}\nprint(colors_name)\nprint(colors_set)",
-        "detail": "set&dic_comprehenstions",
-        "documentation": {}
-    },
-    {
-        "label": "s",
-        "kind": 5,
-        "importPath": "set",
-        "description": "set",
-        "peekOfCode": "s = set ()\ns.add(1)\ns.add(2)\ns.add(3)\ns.add(2)\nprint(s)\ns2=set()\ns2.add(4)\ns2.add(2)\ns2.add(5)",
-        "detail": "set",
-        "documentation": {}
-    },
-    {
-        "label": "list1",
-        "kind": 5,
-        "importPath": "stack&queue",
-        "description": "stack&queue",
-        "peekOfCode": "list1 = [\"bangla\"]\nlist1.append(\"english\")\nprint(list1)\nlist1.append(\"math\")\nlist1.append(\"SCIENCE\")\nlist1.pop()\nprint(list1)\n#queue fisrt in first out\nfrom collections import deque\nlist2 = deque([\"1\",\"2\",\"3\",\"4\"])",
-        "detail": "stack&queue",
-        "documentation": {}
-    },
-    {
-        "label": "list2",
-        "kind": 5,
-        "importPath": "stack&queue",
-        "description": "stack&queue",
-        "peekOfCode": "list2 = deque([\"1\",\"2\",\"3\",\"4\"])\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nlist2.popleft()\nprint(list2)\nif not list2:\n    print(\"No person left\")",
-        "detail": "stack&queue",
-        "documentation": {}
-    },
-    {
-        "label": "first_number",
-        "kind": 5,
-        "importPath": "sum_avg",
-        "description": "sum_avg",
-        "peekOfCode": "first_number = float(input(\"Enter the first number: \"))\nsecond_number = float(input(\"Enter the second number: \"))\nthird_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
-        "detail": "sum_avg",
-        "documentation": {}
-    },
-    {
-        "label": "second_number",
-        "kind": 5,
-        "importPath": "sum_avg",
-        "description": "sum_avg",
-        "peekOfCode": "second_number = float(input(\"Enter the second number: \"))\nthird_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
-        "detail": "sum_avg",
-        "documentation": {}
-    },
-    {
-        "label": "third_number",
-        "kind": 5,
-        "importPath": "sum_avg",
-        "description": "sum_avg",
-        "peekOfCode": "third_number = float(input(\"Enter the Third number: \"))\nresult = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
-        "detail": "sum_avg",
-        "documentation": {}
-    },
-    {
-        "label": "result",
-        "kind": 5,
-        "importPath": "sum_avg",
-        "description": "sum_avg",
-        "peekOfCode": "result = first_number + second_number + third_number\navg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
-        "detail": "sum_avg",
-        "documentation": {}
-    },
-    {
-        "label": "avg",
-        "kind": 5,
-        "importPath": "sum_avg",
-        "description": "sum_avg",
-        "peekOfCode": "avg = result/3\nprint(\"The result is:\", result)\nprint(\"The average : \", avg)",
-        "detail": "sum_avg",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "ternary",
-        "description": "ternary",
-        "peekOfCode": "a = int(input(\"Enter a Number\"))\nb = int(input(\"Enter another Number\"))\nmax_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
-        "detail": "ternary",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "ternary",
-        "description": "ternary",
-        "peekOfCode": "b = int(input(\"Enter another Number\"))\nmax_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
-        "detail": "ternary",
-        "documentation": {}
-    },
-    {
-        "label": "max_num",
-        "kind": 5,
-        "importPath": "ternary",
-        "description": "ternary",
-        "peekOfCode": "max_num = a if a>b else b\nprint(\"Max number is = \", max_num)",
-        "detail": "ternary",
-        "documentation": {}
-    },
-    {
-        "label": "t",
-        "kind": 5,
-        "importPath": "Tuple",
-        "description": "Tuple",
-        "peekOfCode": "t = tuple(reversed(t))\nprint(t)",
-        "detail": "Tuple",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "variable",
-        "description": "variable",
-        "peekOfCode": "a = 18//4\nprint(a)# integer division\nprint(float(a))#convert into float\nb=10/5\nprint(b)# float division\nprint(int(b))#convert into integer\nx=18\ny=4\nmax = x if x<y else y\nprint(max)",
-        "detail": "variable",
-        "documentation": {}
-    },
-    {
-        "label": "max",
-        "kind": 5,
-        "importPath": "variable",
-        "description": "variable",
-        "peekOfCode": "max = x if x<y else y\nprint(max)",
-        "detail": "variable",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "while_loop",
-        "description": "while_loop",
-        "peekOfCode": "a = 3\nwhile a<=21:\n  if a == 15:\n    break\n  print(a)\n  a = a+3\nprint(\"Done\")",
-        "detail": "while_loop",
         "documentation": {}
     }
 ]
