@@ -972,34 +972,34 @@
         "kind": 6,
         "importPath": "Python(OOP).class2",
         "description": "Python(OOP).class2",
-        "peekOfCode": "class Students :\n    def __init__(self,roll,gpa):\n        self.gender= \"male\"\n        self.city = \"dhaka\"\n        self.Roll= roll\n        self.Gpa= gpa\n        print(\"hi\",self)\n    def __str__(self):\n        return \"Roll : {} \\n Gpa : {}\".format(self.Roll,self.Gpa)\nrahim= Students(101,4.5)",
+        "peekOfCode": "class Students :\n    def __init__(self,roll,gpa):\n        self.gender= \"male\".capitalize()\n        self.city = \"dhaka\".capitalize()\n        self.Roll= roll\n        self.Gpa= gpa\n        print(self) #it print  instance from __str__ method what i choose\n    def __str__(self):\n        return \"Roll : {} | Gpa : {} | Gender: {} | City: {}\".format(self.Roll,self.Gpa,self.gender,self.city) #return this instance into print(self) so that it print this return data without object calling\nrahim= Students(101,4.5)",
         "detail": "Python(OOP).class2",
         "documentation": {}
     },
     {
-        "label": "Car",
-        "kind": 6,
-        "importPath": "Python(OOP).class2",
-        "description": "Python(OOP).class2",
-        "peekOfCode": "class Car:\n    def __init__(self, model):\n        self.model1 = model  # self refers to car1\ncar1 = Car(\"Toyota\")\nprint(car1.model1)  # Output: Toyota",
-        "detail": "Python(OOP).class2",
-        "documentation": {}
-    },
-    {
-        "label": "car1",
-        "kind": 5,
-        "importPath": "Python(OOP).class2",
-        "description": "Python(OOP).class2",
-        "peekOfCode": "car1 = Car(\"Toyota\")\nprint(car1.model1)  # Output: Toyota",
-        "detail": "Python(OOP).class2",
-        "documentation": {}
-    },
-    {
-        "label": "Car",
+        "label": "Student",
         "kind": 6,
         "importPath": "Python(OOP).class_method",
         "description": "Python(OOP).class_method",
-        "peekOfCode": "class Car:\n    @classmethod\n    def drive(cls):\n        print(\"He is driving a Car\")\nCar.drive()",
+        "peekOfCode": "class Student:\n    total_students = 0\n    def __init__(self,name):\n        self.name= name\n        Student.total_students +=1\n    @classmethod\n    def get_total_students(cls):\n        return cls.total_students\ns1= Student(\"shimul\")\ns1= Student(\"shimul1\")",
+        "detail": "Python(OOP).class_method",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "Python(OOP).class_method",
+        "description": "Python(OOP).class_method",
+        "peekOfCode": "class Product:\n    def __init__(self, name, price):\n        self.name = name\n        self.price = price\n    @classmethod\n    def from_dict(cls, data):\n        name, price = data.split(',')\n        return cls(name,price)\np = Product.from_dict(\"keya,20\")\nprint(p.name)   # Output: Shampoo",
+        "detail": "Python(OOP).class_method",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python(OOP).class_method",
+        "description": "Python(OOP).class_method",
+        "peekOfCode": "p = Product.from_dict(\"keya,20\")\nprint(p.name)   # Output: Shampoo\nprint(p.price)  # Output: 120",
         "detail": "Python(OOP).class_method",
         "documentation": {}
     },
