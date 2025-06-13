@@ -14,7 +14,11 @@ class Fraction :
         return "{} / {}".format(self.numerator,self.denominator)
 f1=Fraction(5,10)
 f2=Fraction(2,5)
+print(f2.denominator)
 f1.add(f2)
+
+f2.add(f1)
+print(f2)
 print(f1)
 
 

@@ -11,6 +11,8 @@ class Car:
         self.make= mk
         self.model=mdl
         self.year=yr
+    def __str__(self):
+        return f"{self.make} {self.model} {self.year}"
         
     def move(self):
         print("the car is moving")
@@ -19,9 +21,9 @@ class Car:
         print("beef beef!")
         
         
-# x=Car
-# print(x)
-# print(type(x))
+x=Car("l","k","y")
+print(x)
+print(type(x))
 # mycar= Car()
 # print(mycar.make)
 # mycar.move()
@@ -31,4 +33,4 @@ mycar.horn()
 another_car = Car('Toyota','Camry', 2020)
 another_car.move()
 print(mycar.make,another_car.make)
-
+print(mycar)

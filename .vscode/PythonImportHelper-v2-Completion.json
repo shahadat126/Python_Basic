@@ -880,18 +880,108 @@
     {
         "label": "Car",
         "kind": 6,
+        "importPath": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "description": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "peekOfCode": "class Car:\n    def __init__(self, name, brand):\n        self.name = name\n        self.brand = brand\n    @classmethod\n    def default_car(cls):\n        print(\"sk\")  # This will print when using the default constructor\n        return cls(name=\"sk\", brand=\"\")\n    @classmethod\n    def named_car(cls, name, brand):",
+        "detail": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "description": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "peekOfCode": "car1 = Car.named_car(\"apache\", \"sujuki\")\nprint(car1.name, car1.brand)\n# Default constructor\ncar2 = Car.default_car()\nprint(car2.name, car2.brand)\n# Another default\ncar3 = Car.default_car()\nprint(car3.name)",
+        "detail": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "documentation": {}
+    },
+    {
+        "label": "car2",
+        "kind": 5,
+        "importPath": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "description": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "peekOfCode": "car2 = Car.default_car()\nprint(car2.name, car2.brand)\n# Another default\ncar3 = Car.default_car()\nprint(car3.name)",
+        "detail": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "documentation": {}
+    },
+    {
+        "label": "car3",
+        "kind": 5,
+        "importPath": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "description": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "peekOfCode": "car3 = Car.default_car()\nprint(car3.name)",
+        "detail": "Python(OOP).Method.classmethod_as_multiple_constructor",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "Python(OOP).Method.class_method",
+        "description": "Python(OOP).Method.class_method",
+        "peekOfCode": "class Product:\n    def __init__(self, name, price):\n        self.name = name\n        self.price = price\n    @classmethod\n    def from_dict(cls, data):\n        name, price = data.split(',')\n        return cls(name,price)\np = Product.from_dict(\"keya,20\")\nprint(p.name) # Output: Shampoo",
+        "detail": "Python(OOP).Method.class_method",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "Python(OOP).Method.class_method",
+        "description": "Python(OOP).Method.class_method",
+        "peekOfCode": "class Book:\n    def __init__(self,title,author):\n        self.title= title\n        self.author= author\n    @classmethod\n    def from_string(cls,data):\n        title, author = data.split(',')\n        return cls(title,author)\nb = Book.from_string(\"Harry Potter, J.K. Rowling\")\nprint(b.title)",
+        "detail": "Python(OOP).Method.class_method",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python(OOP).Method.class_method",
+        "description": "Python(OOP).Method.class_method",
+        "peekOfCode": "p = Product.from_dict(\"keya,20\")\nprint(p.name) # Output: Shampoo\nprint(p.price)  # Output: 120\n# একটি Book ক্লাস বানাও, যাতে from_string নামে একটি classmethod থাকে। ইনপুট হবে: \"Harry Potter, J.K. Rowling\"\n# তুমি split করে title ও author বের করবে এবং সেই অনুযায়ী object তৈরি করবে\nclass Book:\n    def __init__(self,title,author):\n        self.title= title\n        self.author= author\n    @classmethod",
+        "detail": "Python(OOP).Method.class_method",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python(OOP).Method.class_method",
+        "description": "Python(OOP).Method.class_method",
+        "peekOfCode": "b = Book.from_string(\"Harry Potter, J.K. Rowling\")\nprint(b.title)",
+        "detail": "Python(OOP).Method.class_method",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "Python(OOP).Method.factory_method",
+        "description": "Python(OOP).Method.factory_method",
+        "peekOfCode": "class Product:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    @classmethod\n    def from_dict(cls, data):     # ← 🔸 This is the factory method\n        name, age = data.split(',')\n        return cls(name, int(age))  # ← Creates and returns a Product object\np = Product.from_dict(\"keya,28\")  # ← 🔸 Using the factory method\nprint(p.name)",
+        "detail": "Python(OOP).Method.factory_method",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python(OOP).Method.factory_method",
+        "description": "Python(OOP).Method.factory_method",
+        "peekOfCode": "p = Product.from_dict(\"keya,28\")  # ← 🔸 Using the factory method\nprint(p.name)\nprint(p.age)",
+        "detail": "Python(OOP).Method.factory_method",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "kind": 6,
         "importPath": "Python(OOP).aggregation",
         "description": "Python(OOP).aggregation",
-        "peekOfCode": "class Car:\n    def __init__(self,car):\n        self.car = car\nclass Engine:\n    def start(self):\n        print(\"Start Engine\")\ne1 =Engine()\nc1 = Car(car=e1)\nc1.car.start()",
+        "peekOfCode": "class Course:\n    def __init__(self,title):\n        self.title= title\nclass Student:\n    def __init__(self,name):\n        self.name = name\n        self.course = []\n    def enroll(self,course):\n        self.course.append(course)\n    def enroll_shows(self):",
         "detail": "Python(OOP).aggregation",
         "documentation": {}
     },
     {
-        "label": "Engine",
+        "label": "Student",
         "kind": 6,
         "importPath": "Python(OOP).aggregation",
         "description": "Python(OOP).aggregation",
-        "peekOfCode": "class Engine:\n    def start(self):\n        print(\"Start Engine\")\ne1 =Engine()\nc1 = Car(car=e1)\nc1.car.start()",
+        "peekOfCode": "class Student:\n    def __init__(self,name):\n        self.name = name\n        self.course = []\n    def enroll(self,course):\n        self.course.append(course)\n    def enroll_shows(self):\n        for course in self.course:\n            print(f\"{self.name}  enrolled  in {course.title}\")\nc1 = Course(\"C\")",
         "detail": "Python(OOP).aggregation",
         "documentation": {}
     },
@@ -900,61 +990,61 @@
         "kind": 5,
         "importPath": "Python(OOP).aggregation",
         "description": "Python(OOP).aggregation",
-        "peekOfCode": "c1 = Car(car=e1)\nc1.car.start()",
+        "peekOfCode": "c1 = Course(\"C\")\nc2 = Course(\"C++\")\nc3 = Course(\"python\")\nstu= Student(\"shahadat\")\nstu.enroll(c1)\nstu.enroll(c2)\nstu.enroll(c3)\nstu.enroll_shows()",
         "detail": "Python(OOP).aggregation",
         "documentation": {}
     },
     {
-        "label": "Car",
+        "label": "c2",
+        "kind": 5,
+        "importPath": "Python(OOP).aggregation",
+        "description": "Python(OOP).aggregation",
+        "peekOfCode": "c2 = Course(\"C++\")\nc3 = Course(\"python\")\nstu= Student(\"shahadat\")\nstu.enroll(c1)\nstu.enroll(c2)\nstu.enroll(c3)\nstu.enroll_shows()",
+        "detail": "Python(OOP).aggregation",
+        "documentation": {}
+    },
+    {
+        "label": "c3",
+        "kind": 5,
+        "importPath": "Python(OOP).aggregation",
+        "description": "Python(OOP).aggregation",
+        "peekOfCode": "c3 = Course(\"python\")\nstu= Student(\"shahadat\")\nstu.enroll(c1)\nstu.enroll(c2)\nstu.enroll(c3)\nstu.enroll_shows()",
+        "detail": "Python(OOP).aggregation",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
         "kind": 6,
         "importPath": "Python(OOP).association",
         "description": "Python(OOP).association",
-        "peekOfCode": "class Car:\n   def __init__(self):\n        self.name= \"sujuki\" \nclass Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)\nclass Teacher:",
+        "peekOfCode": "class Team:\n    def __init__(self,name):\n        self.team= name\n    def assign_player(self, player):\n        print(f\"{player.name} is playing for {self.team}\")\nclass Player:\n    def __init__(self,name):\n        self.name= name\np = Player(\"shahadat\")\nt = Team(\"Dhaka\")",
         "detail": "Python(OOP).association",
         "documentation": {}
     },
     {
-        "label": "Driver",
+        "label": "Player",
         "kind": 6,
         "importPath": "Python(OOP).association",
         "description": "Python(OOP).association",
-        "peekOfCode": "class Driver:\n    def drive(self,car_name):\n        print(\"driving\",car_name.name)\nc1= Car()\nd1=Driver()\nd1.drive(car_name=c1)\nclass Teacher:\n    def __init__(self, name):\n        self.t_name = name\nclass School:",
+        "peekOfCode": "class Player:\n    def __init__(self,name):\n        self.name= name\np = Player(\"shahadat\")\nt = Team(\"Dhaka\")\nt.assign_player(p)",
         "detail": "Python(OOP).association",
         "documentation": {}
     },
     {
-        "label": "Teacher",
-        "kind": 6,
-        "importPath": "Python(OOP).association",
-        "description": "Python(OOP).association",
-        "peekOfCode": "class Teacher:\n    def __init__(self, name):\n        self.t_name = name\nclass School:\n    def __init__(self, name):\n        self.s_name = name\n        self.teachers = []\n    def add_teacher(self, teacher):\n        self.teachers.append(teacher)\n        self.f=self.teachers",
-        "detail": "Python(OOP).association",
-        "documentation": {}
-    },
-    {
-        "label": "School",
-        "kind": 6,
-        "importPath": "Python(OOP).association",
-        "description": "Python(OOP).association",
-        "peekOfCode": "class School:\n    def __init__(self, name):\n        self.s_name = name\n        self.teachers = []\n    def add_teacher(self, teacher):\n        self.teachers.append(teacher)\n        self.f=self.teachers\nt1 = Teacher(\"Mr. Smith\")\ns1 = School(\"Greenwood High\")\ns1.add_teacher(t1)",
-        "detail": "Python(OOP).association",
-        "documentation": {}
-    },
-    {
-        "label": "t1",
+        "label": "p",
         "kind": 5,
         "importPath": "Python(OOP).association",
         "description": "Python(OOP).association",
-        "peekOfCode": "t1 = Teacher(\"Mr. Smith\")\ns1 = School(\"Greenwood High\")\ns1.add_teacher(t1)\nprint(s1.name,\"\\n\",s1.f[0].t_name)",
+        "peekOfCode": "p = Player(\"shahadat\")\nt = Team(\"Dhaka\")\nt.assign_player(p)",
         "detail": "Python(OOP).association",
         "documentation": {}
     },
     {
-        "label": "s1",
+        "label": "t",
         "kind": 5,
         "importPath": "Python(OOP).association",
         "description": "Python(OOP).association",
-        "peekOfCode": "s1 = School(\"Greenwood High\")\ns1.add_teacher(t1)\nprint(s1.name,\"\\n\",s1.f[0].t_name)",
+        "peekOfCode": "t = Team(\"Dhaka\")\nt.assign_player(p)",
         "detail": "Python(OOP).association",
         "documentation": {}
     },
@@ -972,35 +1062,8 @@
         "kind": 6,
         "importPath": "Python(OOP).class2",
         "description": "Python(OOP).class2",
-        "peekOfCode": "class Students :\n    def __init__(self,roll,gpa):\n        self.gender= \"male\".capitalize()\n        self.city = \"dhaka\".capitalize()\n        self.Roll= roll\n        self.Gpa= gpa\n        print(self) #it print  instance from __str__ method what i choose\n    def __str__(self):\n        return \"Roll : {} | Gpa : {} | Gender: {} | City: {}\".format(self.Roll,self.Gpa,self.gender,self.city) #return this instance into print(self) so that it print this return data without object calling\nrahim= Students(101,4.5)",
+        "peekOfCode": "class Students :\n    def __init__(self,roll,gpa):\n        self.gender= \"male\".capitalize()\n        self.city = \"dhaka\".capitalize()\n        self.Roll= roll\n        self.Gpa= gpa\n         #it print  instance from __str__ method what i choose\n    #noramally without str it runs __repr__ and it represents objects address\n    #str override __repr__ \n    def __str__(self):",
         "detail": "Python(OOP).class2",
-        "documentation": {}
-    },
-    {
-        "label": "Student",
-        "kind": 6,
-        "importPath": "Python(OOP).class_method",
-        "description": "Python(OOP).class_method",
-        "peekOfCode": "class Student:\n    total_students = 0\n    def __init__(self,name):\n        self.name= name\n        Student.total_students +=1\n    @classmethod\n    def get_total_students(cls):\n        return cls.total_students\ns1= Student(\"shimul\")\ns1= Student(\"shimul1\")",
-        "detail": "Python(OOP).class_method",
-        "documentation": {}
-    },
-    {
-        "label": "Product",
-        "kind": 6,
-        "importPath": "Python(OOP).class_method",
-        "description": "Python(OOP).class_method",
-        "peekOfCode": "class Product:\n    def __init__(self, name, price):\n        self.name = name\n        self.price = price\n    @classmethod\n    def from_dict(cls, data):\n        name, price = data.split(',')\n        return cls(name,price)\np = Product.from_dict(\"keya,20\")\nprint(p.name)   # Output: Shampoo",
-        "detail": "Python(OOP).class_method",
-        "documentation": {}
-    },
-    {
-        "label": "p",
-        "kind": 5,
-        "importPath": "Python(OOP).class_method",
-        "description": "Python(OOP).class_method",
-        "peekOfCode": "p = Product.from_dict(\"keya,20\")\nprint(p.name)   # Output: Shampoo\nprint(p.price)  # Output: 120",
-        "detail": "Python(OOP).class_method",
         "documentation": {}
     },
     {
@@ -1080,7 +1143,7 @@
         "kind": 6,
         "importPath": "Python(OOP).object",
         "description": "Python(OOP).object",
-        "peekOfCode": "class Car:\n    make='toyota'\n    def __init__(self,mk,mdl,yr):\n        self.make= mk\n        self.model=mdl\n        self.year=yr\n    def move(self):\n        print(\"the car is moving\")\n    def horn(self):\n        print(\"beef beef!\")",
+        "peekOfCode": "class Car:\n    make='toyota'\n    def __init__(self,mk,mdl,yr):\n        self.make= mk\n        self.model=mdl\n        self.year=yr\n    def __str__(self):\n        return f\"{self.make} {self.model} {self.year}\"\n    def move(self):\n        print(\"the car is moving\")",
         "detail": "Python(OOP).object",
         "documentation": {}
     },
@@ -1089,7 +1152,7 @@
         "kind": 5,
         "importPath": "Python(OOP).object",
         "description": "Python(OOP).object",
-        "peekOfCode": "another_car = Car('Toyota','Camry', 2020)\nanother_car.move()\nprint(mycar.make,another_car.make)",
+        "peekOfCode": "another_car = Car('Toyota','Camry', 2020)\nanother_car.move()\nprint(mycar.make,another_car.make)\nprint(mycar)",
         "detail": "Python(OOP).object",
         "documentation": {}
     },
