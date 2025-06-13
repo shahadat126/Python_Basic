@@ -972,7 +972,7 @@
         "kind": 6,
         "importPath": "Python(OOP).aggregation",
         "description": "Python(OOP).aggregation",
-        "peekOfCode": "class Course:\n    def __init__(self,title):\n        self.title= title\nclass Student:\n    def __init__(self,name):\n        self.name = name\n        self.course = []\n    def enroll(self,course):\n        self.course.append(course)\n    def enroll_shows(self):",
+        "peekOfCode": "class Course:\n    def __init__(self,title):\n        self.title= title\nclass Student:\n    def __init__(self,name):\n        self.name = name\n        self.course = []\n    def enroll(self,course):\n        self.course.append(course) #aggregation has a relationship \n    def enroll_shows(self):",
         "detail": "Python(OOP).aggregation",
         "documentation": {}
     },
@@ -981,7 +981,7 @@
         "kind": 6,
         "importPath": "Python(OOP).aggregation",
         "description": "Python(OOP).aggregation",
-        "peekOfCode": "class Student:\n    def __init__(self,name):\n        self.name = name\n        self.course = []\n    def enroll(self,course):\n        self.course.append(course)\n    def enroll_shows(self):\n        for course in self.course:\n            print(f\"{self.name}  enrolled  in {course.title}\")\nc1 = Course(\"C\")",
+        "peekOfCode": "class Student:\n    def __init__(self,name):\n        self.name = name\n        self.course = []\n    def enroll(self,course):\n        self.course.append(course) #aggregation has a relationship \n    def enroll_shows(self):\n        for course in self.course:\n            print(f\"{self.name}  enrolled  in {course.title}\")\nc1 = Course(\"C\")",
         "detail": "Python(OOP).aggregation",
         "documentation": {}
     },

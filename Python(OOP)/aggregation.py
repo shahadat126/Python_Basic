@@ -22,7 +22,7 @@
 # lib.add_book(b1)
 # lib.add_book(b2)
 # lib.show_books()
-
+# 2nd example
 class Course:
     def __init__(self,title):
         self.title= title
@@ -31,7 +31,7 @@ class Student:
         self.name = name
         self.course = []
     def enroll(self,course):
-        self.course.append(course)
+        self.course.append(course) #aggregation has a relationship 
     def enroll_shows(self):
         for course in self.course:
             print(f"{self.name}  enrolled  in {course.title}")
