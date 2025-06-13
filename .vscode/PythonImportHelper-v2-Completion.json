@@ -1130,6 +1130,33 @@
         "documentation": {}
     },
     {
+        "label": "Heart",
+        "kind": 6,
+        "importPath": "Python(OOP).composition",
+        "description": "Python(OOP).composition",
+        "peekOfCode": "class Heart:\n    def __init__(self):\n        print(\"Heart is beating\")\nclass Human:\n    def __init__(self):\n        print(\"creating a human\")\n        self.heart= Heart() #creat a object in inner class but object from outer class\nh = Human()",
+        "detail": "Python(OOP).composition",
+        "documentation": {}
+    },
+    {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "Python(OOP).composition",
+        "description": "Python(OOP).composition",
+        "peekOfCode": "class Human:\n    def __init__(self):\n        print(\"creating a human\")\n        self.heart= Heart() #creat a object in inner class but object from outer class\nh = Human()",
+        "detail": "Python(OOP).composition",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "Python(OOP).composition",
+        "description": "Python(OOP).composition",
+        "peekOfCode": "h = Human()",
+        "detail": "Python(OOP).composition",
+        "documentation": {}
+    },
+    {
         "label": "Studen",
         "kind": 6,
         "importPath": "Python(OOP).constructor",
