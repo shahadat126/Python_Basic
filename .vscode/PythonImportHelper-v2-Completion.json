@@ -878,6 +878,69 @@
         "documentation": {}
     },
     {
+        "label": "Father",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.multiple_inheritance",
+        "description": "Python(OOP).inheritance.py.multiple_inheritance",
+        "peekOfCode": "class Father:\n    def skill(self):\n        print(\"Gardening\")\nclass Mother:\n    def talent(self):\n        print(\"Cooking\")\nclass Child(Father, Mother):  # Multiple inheritance\n    pass\nc = Child()\nc.skill()",
+        "detail": "Python(OOP).inheritance.py.multiple_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "Mother",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.multiple_inheritance",
+        "description": "Python(OOP).inheritance.py.multiple_inheritance",
+        "peekOfCode": "class Mother:\n    def talent(self):\n        print(\"Cooking\")\nclass Child(Father, Mother):  # Multiple inheritance\n    pass\nc = Child()\nc.skill()\nc.talent()",
+        "detail": "Python(OOP).inheritance.py.multiple_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "Child",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.multiple_inheritance",
+        "description": "Python(OOP).inheritance.py.multiple_inheritance",
+        "peekOfCode": "class Child(Father, Mother):  # Multiple inheritance\n    pass\nc = Child()\nc.skill()\nc.talent()",
+        "detail": "Python(OOP).inheritance.py.multiple_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.multiple_inheritance",
+        "description": "Python(OOP).inheritance.py.multiple_inheritance",
+        "peekOfCode": "c = Child()\nc.skill()\nc.talent()",
+        "detail": "Python(OOP).inheritance.py.multiple_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "class Animal:\n    def speak(self):\n        print(\"Animal speaks\")\nclass Dog(Animal):  # Single inheritance\n    def bark(self):\n        print(\"Dog barks\")\nd = Dog()\nd.speak()  # parent class method\nd.bark()   # child class method",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "class Dog(Animal):  # Single inheritance\n    def bark(self):\n        print(\"Dog barks\")\nd = Dog()\nd.speak()  # parent class method\nd.bark()   # child class method",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "d = Dog()\nd.speak()  # parent class method\nd.bark()   # child class method",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
         "label": "Car",
         "kind": 6,
         "importPath": "Python(OOP).Method.classmethod_as_multiple_constructor",
