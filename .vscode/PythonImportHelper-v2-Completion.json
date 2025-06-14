@@ -878,6 +878,42 @@
         "documentation": {}
     },
     {
+        "label": "Grandparent",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "description": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "peekOfCode": "class Grandparent:\n    def property(self):\n        print(\"Land\")\nclass Parent(Grandparent):\n    def house(self):\n        print(\"House\")\nclass Child(Parent):\n    def bike(self):\n        print(\"Bike\")\nc = Child()",
+        "detail": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "Parent",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "description": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "peekOfCode": "class Parent(Grandparent):\n    def house(self):\n        print(\"House\")\nclass Child(Parent):\n    def bike(self):\n        print(\"Bike\")\nc = Child()\nc.property()\nc.house()\nc.bike()",
+        "detail": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "Child",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "description": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "peekOfCode": "class Child(Parent):\n    def bike(self):\n        print(\"Bike\")\nc = Child()\nc.property()\nc.house()\nc.bike()",
+        "detail": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "description": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "peekOfCode": "c = Child()\nc.property()\nc.house()\nc.bike()",
+        "detail": "Python(OOP).inheritance.py.multilevel_inheritance",
+        "documentation": {}
+    },
+    {
         "label": "Father",
         "kind": 6,
         "importPath": "Python(OOP).inheritance.py.multiple_inheritance",
