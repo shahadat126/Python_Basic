@@ -954,7 +954,25 @@
         "kind": 6,
         "importPath": "Python(OOP).inheritance.py.single_inherirtance",
         "description": "Python(OOP).inheritance.py.single_inherirtance",
-        "peekOfCode": "class Animal:\n    def speak(self):\n        print(\"Animal speaks\")\nclass Dog(Animal):  # Single inheritance\n    def bark(self):\n        print(\"Dog barks\")\nd = Dog()\nd.speak()  # parent class method\nd.bark()   # child class method",
+        "peekOfCode": "class Animal:\n    def speak(self):\n        print(\"Animal speaks\")\nclass Cat(Animal):  # Single inheritance\n    def bark(self):\n        print(\"Cat barks\")\nd = Cat()\nd.speak()  # parent class method\nd.bark()   # child class method\nclass Animal:",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "Cat",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "class Cat(Animal):  # Single inheritance\n    def bark(self):\n        print(\"Cat barks\")\nd = Cat()\nd.speak()  # parent class method\nd.bark()   # child class method\nclass Animal:\n    def __init__(self):\n        print(\"Animal Constructor\")\nclass Dog(Animal):",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "class Animal:\n    def __init__(self):\n        print(\"Animal Constructor\")\nclass Dog(Animal):\n    def __init__(self):\n        print(\"Dog Constructor\")\nd = Dog()\n#যেহেতু Dog ক্লাস নিজের __init__() তৈরি করেছে, তাই এটি override করেছে।\n#Parent এর constructor আর কল হবে না, কারণ Python শুধু Dog.__init__() দেখছে।\n#type 2",
         "detail": "Python(OOP).inheritance.py.single_inherirtance",
         "documentation": {}
     },
@@ -963,7 +981,25 @@
         "kind": 6,
         "importPath": "Python(OOP).inheritance.py.single_inherirtance",
         "description": "Python(OOP).inheritance.py.single_inherirtance",
-        "peekOfCode": "class Dog(Animal):  # Single inheritance\n    def bark(self):\n        print(\"Dog barks\")\nd = Dog()\nd.speak()  # parent class method\nd.bark()   # child class method",
+        "peekOfCode": "class Dog(Animal):\n    def __init__(self):\n        print(\"Dog Constructor\")\nd = Dog()\n#যেহেতু Dog ক্লাস নিজের __init__() তৈরি করেছে, তাই এটি override করেছে।\n#Parent এর constructor আর কল হবে না, কারণ Python শুধু Dog.__init__() দেখছে।\n#type 2\n#if আমরা চাই Parent এর constructor ও কল হোক?\n#তাহলে আমরা super() ব্যবহার করি।\nclass Animal2:",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "Animal2",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "class Animal2:\n    def __init__(self):\n        print(\"Animal Constructor\")\nclass Dog2(Animal2):\n    def __init__(self):\n        super().__init__()  # Parent class constructor call\n        print(\"Dog2 Constructor\")\nd = Dog2()\n# | Dog ক্লাসে `super()` না থাকলে | থাকলে                                              |\n# | ----------------------------- | -------------------------------------------------- |",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "Dog2",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "class Dog2(Animal2):\n    def __init__(self):\n        super().__init__()  # Parent class constructor call\n        print(\"Dog2 Constructor\")\nd = Dog2()\n# | Dog ক্লাসে `super()` না থাকলে | থাকলে                                              |\n# | ----------------------------- | -------------------------------------------------- |\n# | শুধু child constructor চলে    | প্রথমে parent constructor, তারপর child constructor |",
         "detail": "Python(OOP).inheritance.py.single_inherirtance",
         "documentation": {}
     },
@@ -972,7 +1008,25 @@
         "kind": 5,
         "importPath": "Python(OOP).inheritance.py.single_inherirtance",
         "description": "Python(OOP).inheritance.py.single_inherirtance",
-        "peekOfCode": "d = Dog()\nd.speak()  # parent class method\nd.bark()   # child class method",
+        "peekOfCode": "d = Cat()\nd.speak()  # parent class method\nd.bark()   # child class method\nclass Animal:\n    def __init__(self):\n        print(\"Animal Constructor\")\nclass Dog(Animal):\n    def __init__(self):\n        print(\"Dog Constructor\")\nd = Dog()",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "d = Dog()\n#যেহেতু Dog ক্লাস নিজের __init__() তৈরি করেছে, তাই এটি override করেছে।\n#Parent এর constructor আর কল হবে না, কারণ Python শুধু Dog.__init__() দেখছে।\n#type 2\n#if আমরা চাই Parent এর constructor ও কল হোক?\n#তাহলে আমরা super() ব্যবহার করি।\nclass Animal2:\n    def __init__(self):\n        print(\"Animal Constructor\")\nclass Dog2(Animal2):",
+        "detail": "Python(OOP).inheritance.py.single_inherirtance",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.single_inherirtance",
+        "description": "Python(OOP).inheritance.py.single_inherirtance",
+        "peekOfCode": "d = Dog2()\n# | Dog ক্লাসে `super()` না থাকলে | থাকলে                                              |\n# | ----------------------------- | -------------------------------------------------- |\n# | শুধু child constructor চলে    | প্রথমে parent constructor, তারপর child constructor |",
         "detail": "Python(OOP).inheritance.py.single_inherirtance",
         "documentation": {}
     },
