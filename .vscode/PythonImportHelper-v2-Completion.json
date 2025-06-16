@@ -878,6 +878,42 @@
         "documentation": {}
     },
     {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "description": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "peekOfCode": "class Vehicle:\n    def __init__(self, type, **kwargs):\n        super().__init__(**kwargs)\n        self.type = type\n    def get_type(self):\n        print(f\"{self.type}\")\nclass Brand:\n    def __init__(self, brand_name, **kwargs):\n        super().__init__(**kwargs)\n        self.brand_name = brand_name",
+        "detail": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "documentation": {}
+    },
+    {
+        "label": "Brand",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "description": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "peekOfCode": "class Brand:\n    def __init__(self, brand_name, **kwargs):\n        super().__init__(**kwargs)\n        self.brand_name = brand_name\n    def get_brand(self):\n        print(f\"{self.brand_name}\")\nclass Car(Vehicle, Brand):\n    def __init__(self, type, brand_name):\n        super().__init__(type=type, brand_name=brand_name)\n    def show_car_info(self):",
+        "detail": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "description": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "peekOfCode": "class Car(Vehicle, Brand):\n    def __init__(self, type, brand_name):\n        super().__init__(type=type, brand_name=brand_name)\n    def show_car_info(self):\n        self.get_type()\n        self.get_brand()\ncar = Car(\"Toyota\", \"sujuki\")\ncar.show_car_info()",
+        "detail": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "description": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "peekOfCode": "car = Car(\"Toyota\", \"sujuki\")\ncar.show_car_info()",
+        "detail": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
+        "documentation": {}
+    },
+    {
         "label": "Grandparent",
         "kind": 6,
         "importPath": "Python(OOP).inheritance.py.multilevel_inheritance",
