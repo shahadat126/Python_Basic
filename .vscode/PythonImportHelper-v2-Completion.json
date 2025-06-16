@@ -878,6 +878,51 @@
         "documentation": {}
     },
     {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.employee_management_system",
+        "description": "Python(OOP).inheritance.py.employee_management_system",
+        "peekOfCode": "class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    def display_info(self):\n        print(f\"Name: {self.name}, Age: {self.age}\")\nclass Employee(Person):\n    def __init__(self, name, age, emp_id, salary):\n        super().__init__(name, age)\n        self.emp_id = emp_id",
+        "detail": "Python(OOP).inheritance.py.employee_management_system",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.employee_management_system",
+        "description": "Python(OOP).inheritance.py.employee_management_system",
+        "peekOfCode": "class Employee(Person):\n    def __init__(self, name, age, emp_id, salary):\n        super().__init__(name, age)\n        self.emp_id = emp_id\n        self.salary = salary\n    def display_info(self):\n        super().display_info()\n        print(f\"Employee ID: {self.emp_id}, Salary: {self.salary}\")\nclass Programmer:\n    def __init__(self, language):",
+        "detail": "Python(OOP).inheritance.py.employee_management_system",
+        "documentation": {}
+    },
+    {
+        "label": "Programmer",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.employee_management_system",
+        "description": "Python(OOP).inheritance.py.employee_management_system",
+        "peekOfCode": "class Programmer:\n    def __init__(self, language):\n        self.language = language\n    def show_language(self):\n        print(f\"Programming Language: {self.language}\")\nclass Developer(Employee, Programmer):\n    def __init__(self, name, age, emp_id, salary, language):\n        Employee.__init__(self, name, age, emp_id, salary)\n        Programmer.__init__(self, language)\n    def show_details(self):",
+        "detail": "Python(OOP).inheritance.py.employee_management_system",
+        "documentation": {}
+    },
+    {
+        "label": "Developer",
+        "kind": 6,
+        "importPath": "Python(OOP).inheritance.py.employee_management_system",
+        "description": "Python(OOP).inheritance.py.employee_management_system",
+        "peekOfCode": "class Developer(Employee, Programmer):\n    def __init__(self, name, age, emp_id, salary, language):\n        Employee.__init__(self, name, age, emp_id, salary)\n        Programmer.__init__(self, language)\n    def show_details(self):\n        self.display_info()\n        self.show_language()\n# Testing\ndev = Developer(\"Rafi\", 25, \"EMP123\", 50000, \"Python\")\ndev.show_details()",
+        "detail": "Python(OOP).inheritance.py.employee_management_system",
+        "documentation": {}
+    },
+    {
+        "label": "dev",
+        "kind": 5,
+        "importPath": "Python(OOP).inheritance.py.employee_management_system",
+        "description": "Python(OOP).inheritance.py.employee_management_system",
+        "peekOfCode": "dev = Developer(\"Rafi\", 25, \"EMP123\", 50000, \"Python\")\ndev.show_details()\n# print(Developer.mro())",
+        "detail": "Python(OOP).inheritance.py.employee_management_system",
+        "documentation": {}
+    },
+    {
         "label": "Vehicle",
         "kind": 6,
         "importPath": "Python(OOP).inheritance.py.Mro_in_multiple_inherit",
