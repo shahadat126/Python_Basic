@@ -1,7 +1,10 @@
-# fruits =["apple","orange","banana","mango"]
-# print(fruits)
-# fruits.append("sour")
-# fruits.pop
+fruits =["apple","orange","banana","mango"]
+print(fruits)
+
+fruits.pop()
+print(fruits)
+fruits.append("sour")
+print(fruits)
 li =[1,2,3,4,5]
 print(li)
 li2=[6,7,8,9,10]
