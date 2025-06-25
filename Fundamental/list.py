@@ -2,7 +2,7 @@ fruits =["apple","orange","banana","mango"]
 print(fruits)
 
 fruits.pop()
-print(fruits)
+# print(fruits)
 fruits.append("sour")
 print(fruits)
 li =[1,2,3,4,5]
