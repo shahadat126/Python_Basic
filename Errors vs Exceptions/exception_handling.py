@@ -17,9 +17,10 @@ while True:
         break
     try:
         print("result of division\n", n1/n2)
+        
     except ZeroDivisionError:
         print("can not divide by zero")
     else :
         print("good work")
         break
-    
+    #break যে if, else, try বা except block-এর ভিতরে আছে, সেটি নয়; বরং সেই block-এর বাইরের সবচেয়ে কাছের loop-কে বন্ধ করে।

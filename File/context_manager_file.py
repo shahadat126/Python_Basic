@@ -1,3 +1,3 @@
-with open("name.txt", "r") as fp:
-    content = fp.reader()  # read all lines at once and process them as a list including \n
+with open("File/contact.csv", "r") as fp:
+    content = fp.readline()  # read all lines at once and process them as a list including \n
     print(content)

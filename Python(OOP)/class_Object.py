@@ -3,7 +3,7 @@ class Students:
     Gpa = ""
     
 shihab= Students()
-# print(isinstance(shihab,Students))#is object created ? true
+print(isinstance(shihab,Students))#is object created ? true
 shihab.Roll=1
 shihab.Gpa= 5
 Sabbir= Students()

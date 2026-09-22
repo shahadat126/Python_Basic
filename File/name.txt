@@ -1,7 +1,1 @@
-hello worldhi
-hi
-hi
-hi
-hi
- i love python
-i am new to python
+hello world

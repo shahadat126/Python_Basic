@@ -90,8 +90,17 @@
         "kind": 5,
         "importPath": "File.file_handling",
         "description": "File.file_handling",
-        "peekOfCode": "file_path = pathlib.Path('File/name.txt')\nif file_path.exists():\n    print(\"File exists\")\nprint(os.path.abspath('File/name.txt'))\nprint(os.path.getsize('File/name.txt'))\nwith open('File/name.txt','r') as f:\n    print(f.read(18))\n    print(f.tell())",
+        "peekOfCode": "file_path = pathlib.Path('File/name.txt')\nif file_path.exists():\n    print(\"File exists\")\nprint(os.path.abspath('File/name.txt'))\nprint(os.path.getsize('File/name.txt'))\nwith open('File/name.txt','r') as f:\n    print(f.read(48))\n    print(f.tell())",
         "detail": "File.file_handling",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "File.readfile",
+        "description": "File.readfile",
+        "peekOfCode": "f = open('name.txt')\nprint(f.read())\nwith open('myfile.txt','r') as f:#when we use with keyword then we dont need to use close() for with because it automatically close the file\n    content = f.read()\n    print(content)",
+        "detail": "File.readfile",
         "documentation": {}
     },
     {
@@ -122,12 +131,39 @@
         "documentation": {}
     },
     {
-        "label": "generate_multiplication_table",
+        "label": "myfunc",
         "kind": 2,
         "importPath": "Function.function",
         "description": "Function.function",
-        "peekOfCode": "def generate_multiplication_table(n):\n    print(n,\"x 1 =\",n*1)\n    print(n,\"x 2 =\",n*2)\n    print(n,\"x 3 =\",n*3)\n    print(n,\"x 4 =\",n*4)\n    print(n,\"x 5 =\",n*5)\n    print(n,\"x 6 =\",n*6)\n    print(n,\"x 7 =\",n*7)\n    print(n,\"x 8 =\",n*8)\n    print(n,\"x 9 =\",n*9)",
+        "peekOfCode": "def myfunc():\n    x = 300\n    def myinnerfunc():\n        nonlocal x\n        x =   x  + 5\n        def innerfunc():\n            print(x)\n        innerfunc()    \n    myinnerfunc()\nmyfunc()",
         "detail": "Function.function",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "Function.function",
+        "description": "Function.function",
+        "peekOfCode": "def myfunc():\n  x = x + 5\n  print(x)\nmyfunc()\nprint(x)",
+        "detail": "Function.function",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Function.function",
+        "description": "Function.function",
+        "peekOfCode": "x = 300\ndef myfunc():\n  x = x + 5\n  print(x)\nmyfunc()\nprint(x)",
+        "detail": "Function.function",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "Function.keyword_function",
+        "description": "Function.keyword_function",
+        "peekOfCode": "def my_function(l_name,age,f_name):\n    print(f\"My name is  {f_name} {l_name}.I am {age} years old\")\nmy_function(f_name=\"Shimul\",l_name=\"khan\",age=28)\ndef my_function(**data):\n    print(data)\n    print(f\"My name is  {data['f_name']} {data['l_name']}.I am {data['age']} years old. I Got {data['marks']} marks in programming. I live in {data['address']}\")\nmy_function(f_name=\"Shimul\",l_name=\"khan\",age=28,marks = 95, address=\"Dhaka\")",
+        "detail": "Function.keyword_function",
         "documentation": {}
     },
     {
@@ -153,7 +189,7 @@
         "kind": 5,
         "importPath": "Function.lamda_function",
         "description": "Function.lamda_function",
-        "peekOfCode": "students =  [('abir',94,50),('shimul',85,25),('jahir',95,20)]\nstudents_results = sorted(students,key= lambda x : x[2],reverse=True)\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "peekOfCode": "students =  [('abir',94,50),('shimul',85,25),('jahir',95,20)]\nstudents_results = sorted(students,key= lambda x : x[2],reverse=False)\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
         "detail": "Function.lamda_function",
         "documentation": {}
     },
@@ -162,7 +198,7 @@
         "kind": 5,
         "importPath": "Function.lamda_function",
         "description": "Function.lamda_function",
-        "peekOfCode": "students_results = sorted(students,key= lambda x : x[2],reverse=True)\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
+        "peekOfCode": "students_results = sorted(students,key= lambda x : x[2],reverse=False)\nprint(students_results)\nstudents_results = sorted(students,key= lambda x : x[1])\nprint(students_results)",
         "detail": "Function.lamda_function",
         "documentation": {}
     },
@@ -860,6 +896,96 @@
         "documentation": {}
     },
     {
+        "label": "name",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "name = input(\"Enter seller's name = \")\nfixed_salary = float(input(\"Enter fixed_salary = \"))\ntotal_sales = float(input(\"Enter total_sales = \"))\ntotal_salary = fixed_salary + (total_sales * 0.15)\nprint(f\"TOTAL = R$ {total_salary:.2f}\")\n#task2\nA = float(input())\nB = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "fixed_salary",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "fixed_salary = float(input(\"Enter fixed_salary = \"))\ntotal_sales = float(input(\"Enter total_sales = \"))\ntotal_salary = fixed_salary + (total_sales * 0.15)\nprint(f\"TOTAL = R$ {total_salary:.2f}\")\n#task2\nA = float(input())\nB = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "total_sales",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "total_sales = float(input(\"Enter total_sales = \"))\ntotal_salary = fixed_salary + (total_sales * 0.15)\nprint(f\"TOTAL = R$ {total_salary:.2f}\")\n#task2\nA = float(input())\nB = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "total_salary",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "total_salary = fixed_salary + (total_sales * 0.15)\nprint(f\"TOTAL = R$ {total_salary:.2f}\")\n#task2\nA = float(input())\nB = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"TOTAL",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "print(f\"TOTAL = R$ {total_salary:.2f}\")\n#task2\nA = float(input())\nB = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "A = float(input())\nB = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "B = float(input())\nC = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "C = float(input())\nmedian = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "median",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "median = (A * 2 + B * 3 + C * 5) / 10\nprint(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"MEDIAN",
+        "kind": 5,
+        "importPath": "inno.tsk1",
+        "description": "inno.tsk1",
+        "peekOfCode": "print(f\"MEDIAN = {median:.1f}\")",
+        "detail": "inno.tsk1",
+        "documentation": {}
+    },
+    {
         "label": "bill_payment_Day",
         "kind": 5,
         "importPath": "Module.datetime",
@@ -875,6 +1001,114 @@
         "description": "Module.datetime",
         "peekOfCode": "bill_payment_Day = today - timedelta(days=3 , seconds=50)\nprint(bill_payment_Day)",
         "detail": "Module.datetime",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "Ostad.module1.task1",
+        "description": "Ostad.module1.task1",
+        "peekOfCode": "marks = [45, 67, 89, 45, 90, 56, 67]\nuniue = list(set(marks))\nprint(uniue) \n#print maximum value\nmax_numbers = max(uniue)\nprint(max_numbers)\n#minimum value\nmin_numbers = min(uniue)\nprint(min_numbers)\n#average",
+        "detail": "Ostad.module1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "uniue",
+        "kind": 5,
+        "importPath": "Ostad.module1.task1",
+        "description": "Ostad.module1.task1",
+        "peekOfCode": "uniue = list(set(marks))\nprint(uniue) \n#print maximum value\nmax_numbers = max(uniue)\nprint(max_numbers)\n#minimum value\nmin_numbers = min(uniue)\nprint(min_numbers)\n#average\nsum=0",
+        "detail": "Ostad.module1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "max_numbers",
+        "kind": 5,
+        "importPath": "Ostad.module1.task1",
+        "description": "Ostad.module1.task1",
+        "peekOfCode": "max_numbers = max(uniue)\nprint(max_numbers)\n#minimum value\nmin_numbers = min(uniue)\nprint(min_numbers)\n#average\nsum=0\nnumbers= len(marks)\nprint(numbers)\nfor i in marks :",
+        "detail": "Ostad.module1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "min_numbers",
+        "kind": 5,
+        "importPath": "Ostad.module1.task1",
+        "description": "Ostad.module1.task1",
+        "peekOfCode": "min_numbers = min(uniue)\nprint(min_numbers)\n#average\nsum=0\nnumbers= len(marks)\nprint(numbers)\nfor i in marks :\n    sum= sum + i\nprint(sum)\naverage = sum / numbers",
+        "detail": "Ostad.module1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 5,
+        "importPath": "Ostad.module1.task1",
+        "description": "Ostad.module1.task1",
+        "peekOfCode": "average = sum / numbers\nprint(average)",
+        "detail": "Ostad.module1.task1",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Ostad.module1.task2",
+        "description": "Ostad.module1.task2",
+        "peekOfCode": "numbers = [1,2,3,4,5,6,7,8,9,10]\neven_numbers = [num for num in numbers if num % 2==0]\nprint(even_numbers)\n# odd_numbers = [num*num for num in numbers if num % 2 == 1]\n# print(odd_numbers)",
+        "detail": "Ostad.module1.task2",
+        "documentation": {}
+    },
+    {
+        "label": "even_numbers",
+        "kind": 5,
+        "importPath": "Ostad.module1.task2",
+        "description": "Ostad.module1.task2",
+        "peekOfCode": "even_numbers = [num for num in numbers if num % 2==0]\nprint(even_numbers)\n# odd_numbers = [num*num for num in numbers if num % 2 == 1]\n# print(odd_numbers)",
+        "detail": "Ostad.module1.task2",
+        "documentation": {}
+    },
+    {
+        "label": "sentence",
+        "kind": 5,
+        "importPath": "Ostad.module1.task3",
+        "description": "Ostad.module1.task3",
+        "peekOfCode": "sentence = \"python is easy and python is powerful\"\nwords = sentence.split()\nfreq = {}\nfor word in words:\n    if word in freq:\n        freq[word] += 1\n    else:\n        freq[word] = 1\nprint(freq)",
+        "detail": "Ostad.module1.task3",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "Ostad.module1.task3",
+        "description": "Ostad.module1.task3",
+        "peekOfCode": "words = sentence.split()\nfreq = {}\nfor word in words:\n    if word in freq:\n        freq[word] += 1\n    else:\n        freq[word] = 1\nprint(freq)",
+        "detail": "Ostad.module1.task3",
+        "documentation": {}
+    },
+    {
+        "label": "freq",
+        "kind": 5,
+        "importPath": "Ostad.module1.task3",
+        "description": "Ostad.module1.task3",
+        "peekOfCode": "freq = {}\nfor word in words:\n    if word in freq:\n        freq[word] += 1\n    else:\n        freq[word] = 1\nprint(freq)",
+        "detail": "Ostad.module1.task3",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "Ostad.module1.task5",
+        "description": "Ostad.module1.task5",
+        "peekOfCode": "students = {\n\"Rahim\": 85,\n\"Karim\": 90,\n\"Suma\": 78,\n\"Joya\": 92\n}\nfor name in students:\n    print(name)\nfor name, marks in students.items():\n    if marks > 80:",
+        "detail": "Ostad.module1.task5",
+        "documentation": {}
+    },
+    {
+        "label": "top_student",
+        "kind": 5,
+        "importPath": "Ostad.module1.task5",
+        "description": "Ostad.module1.task5",
+        "peekOfCode": "top_student = max(students, key=students.get)\nprint(top_student, students[top_student])",
+        "detail": "Ostad.module1.task5",
         "documentation": {}
     },
     {
@@ -1305,7 +1539,7 @@
         "kind": 6,
         "importPath": "Python(OOP).class_Object",
         "description": "Python(OOP).class_Object",
-        "peekOfCode": "class Students:\n    Roll = \"\"\n    Gpa = \"\"\nshihab= Students()\n# print(isinstance(shihab,Students))#is object created ? true\nshihab.Roll=1\nshihab.Gpa= 5\nSabbir= Students()\nSabbir.Roll = 2\nSabbir.Gpa = 4.75",
+        "peekOfCode": "class Students:\n    Roll = \"\"\n    Gpa = \"\"\nshihab= Students()\nprint(isinstance(shihab,Students))#is object created ? true\nshihab.Roll=1\nshihab.Gpa= 5\nSabbir= Students()\nSabbir.Roll = 2\nSabbir.Gpa = 4.75",
         "detail": "Python(OOP).class_Object",
         "documentation": {}
     },
@@ -1405,15 +1639,6 @@
         "importPath": "Python(OOP).object",
         "description": "Python(OOP).object",
         "peekOfCode": "class Car:\n    make='toyota'\n    def __init__(self,mk,mdl,yr):\n        self.make= mk\n        self.model=mdl\n        self.year=yr\n    def __str__(self):\n        return f\"{self.make} {self.model} {self.year}\"\n    def move(self):\n        print(\"the car is moving\")",
-        "detail": "Python(OOP).object",
-        "documentation": {}
-    },
-    {
-        "label": "another_car",
-        "kind": 5,
-        "importPath": "Python(OOP).object",
-        "description": "Python(OOP).object",
-        "peekOfCode": "another_car = Car('Toyota','Camry', 2020)\nanother_car.move()\nprint(mycar.make,another_car.make)\nprint(mycar)",
         "detail": "Python(OOP).object",
         "documentation": {}
     },
