@@ -17,8 +17,7 @@ except IndexError:
 except Exception as e:
     print("Unknown error",e)
 
-# প্রশ্ন	
-
+# প্রশ্ন
 # উত্তর
 # একটি try block-এ দুটি error থাকলে কী হয়?
 # প্রথম error-এ execution থামে
