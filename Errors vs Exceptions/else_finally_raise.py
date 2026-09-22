@@ -2,7 +2,7 @@ try:
     with open("name.txt",'r') as f:
         print(f.read())
     print(10/1)
-    x = int("12")
+    x = int("3")
     print(x)
     a =[1,2,3]
     print(a[1]) 

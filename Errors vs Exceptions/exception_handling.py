@@ -17,7 +17,7 @@ while True:
         break
     try:
         print("result of division\n", n1/n2)
-        
+        break
     except ZeroDivisionError:
         print("can not divide by zero")
     else :
