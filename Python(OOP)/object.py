@@ -36,3 +36,10 @@ mycar.move()
 # another_car.move()
 # print(mycar.make,another_car.make)
 # print(mycar)
+# এদের কাজের ক্রম (Execution Order)
+# আপনি যখন একটি অবজেক্ট তৈরি করেন (যেমন: obj = Student()), তখন পাইথন ব্যাকগ্রাউন্ডে নিচের দুটি ধাপ পরপর সম্পন্ন করে:
+# text
+# ১. Student.__new__() ──> মেমোরিতে অবজেক্ট তৈরি করে (Object Creation)
+#          │
+#          ▼
+# ২. Student.__init__() ──> তৈরি হওয়া অবজেক্টে ডাটা সেট করে (Object Initialization)

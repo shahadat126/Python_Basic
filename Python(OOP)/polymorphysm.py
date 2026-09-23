@@ -3,5 +3,6 @@ class Shape:
         return a*b
     
 c = Shape()
-c.area(10)
-print(c.area(12,12))
+d=c.area(10)
+print(d)
+# print(c.area(12,12))
